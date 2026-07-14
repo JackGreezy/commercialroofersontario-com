@@ -1,0 +1,28 @@
+{
+  "clone_dir": "/Users/jackgreenberg/Desktop/rank-and-rent/commercial-roofing/commercialroofersontario-com",
+  "content_dir": "/Users/jackgreenberg/Desktop/rank-and-rent/commercial-roofing/commercialroofersontario-com",
+  "biz": "Commercial Roofers of Ontario",
+  "businessName": "Commercial Roofers of Ontario",
+  "city": "Ontario",
+  "state": "California",
+  "region": "Ontario, the Inland Empire, and surrounding San Bernardino and Los Angeles County communities",
+  "domain": "commercialroofersontario.com",
+  "phone": "555-555-6133",
+  "email": "repairs@commercialroofersontario.com",
+  "address": "3281 E Guasti Rd, Suite 700, Ontario, CA 91761",
+  "vertical": "commercial-roofing",
+  "hero_image": "/ours/locations/commercial-roofers-ontario-ca-01.webp",
+  "wordmark_l1": "Commercial Roofers",
+  "wordmark_l2": "of Ontario",
+  "nav": [
+    ["Services", "/services"],
+    ["Roof Systems", "/roof-systems"],
+    ["Industries", "/industries"],
+    ["Project Types", "/project-types"],
+    ["Service Areas", "/locations"],
+    ["Contact", "/contact"]
+  ],
+  "cta": ["Request a Roof Assessment", "/contact"],
+  "ref_host": "hoffmancorp-com",
+  "voice": "/Users/jackgreenberg/Desktop/rank-and-rent/David/clones/scripts/voice/commercial-roofing.json"
+}

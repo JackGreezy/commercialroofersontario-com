@@ -1,0 +1,66 @@
+{
+  "services": {
+    "acrylic-roof-coatings": "/images/services/acrylic-roof-coatings-commercial-roofers-ontario-ca.webp",
+    "built-up-roofing": "/images/services/built-up-roofing-commercial-roofers-ontario-ca.webp",
+    "commercial-reroofing": "/images/services/commercial-reroofing-commercial-roofers-ontario-ca.webp",
+    "commercial-roof-inspection": "/images/services/commercial-roof-inspection-commercial-roofers-ontario-ca.webp",
+    "commercial-roof-leak-repair": "/images/services/commercial-roof-leak-repair-commercial-roofers-ontario-ca.webp",
+    "commercial-roof-tear-off-replacement": "/images/services/commercial-roof-tear-off-replacement-commercial-roofers-ontario-ca.webp",
+    "edge-metal-coping-gutters": "/images/services/edge-metal-coping-gutters-commercial-roofers-ontario-ca.webp",
+    "emergency-tarp-dry-in": "/images/services/emergency-tarp-dry-in-commercial-roofers-ontario-ca.webp",
+    "epdm-commercial-roofing": "/images/services/epdm-commercial-roofing-commercial-roofers-ontario-ca.webp",
+    "insurance-documentation-support": "/images/services/insurance-documentation-support-commercial-roofers-ontario-ca.webp",
+    "metal-r-panel-roofing": "/images/services/metal-r-panel-roofing-commercial-roofers-ontario-ca.webp",
+    "modified-bitumen-roofing": "/images/services/modified-bitumen-roofing-commercial-roofers-ontario-ca.webp",
+    "preventive-maintenance-programs": "/images/services/preventive-maintenance-programs-commercial-roofers-ontario-ca.webp",
+    "pvc-roofing": "/images/services/pvc-roofing-commercial-roofers-ontario-ca.webp",
+    "roof-drains-scuppers": "/images/services/roof-drains-scuppers-commercial-roofers-ontario-ca.webp",
+    "roof-recover-overlay": "/images/services/roof-recover-overlay-commercial-roofers-ontario-ca.webp",
+    "silicone-roof-coatings": "/images/services/silicone-roof-coatings-commercial-roofers-ontario-ca.webp",
+    "standing-seam-metal-roofing": "/images/services/standing-seam-metal-roofing-commercial-roofers-ontario-ca.webp",
+    "storm-damage-roof-repair": "/images/services/storm-damage-roof-repair-commercial-roofers-ontario-ca.webp",
+    "tpo-single-ply-roofing": "/images/services/tpo-single-ply-roofing-commercial-roofers-ontario-ca.webp"
+  },
+  "roof-systems": {
+    "epdm-black": "/images/roof-systems/epdm-black-commercial-roofers-ontario-ca.webp",
+    "epdm-white": "/images/roof-systems/epdm-white-commercial-roofers-ontario-ca.webp",
+    "modified-bitumen-sbs": "/images/roof-systems/modified-bitumen-sbs-commercial-roofers-ontario-ca.webp",
+    "pvc-roof-systems": "/images/roof-systems/pvc-roof-systems-commercial-roofers-ontario-ca.webp",
+    "silicone-roof-coating": "/images/roof-systems/silicone-roof-coating-commercial-roofers-ontario-ca.webp",
+    "spray-polyurethane-foam": "/images/roof-systems/spray-polyurethane-foam-commercial-roofers-ontario-ca.webp",
+    "tpo-60-mil": "/images/roof-systems/tpo-60-mil-commercial-roofers-ontario-ca.webp",
+    "tpo-80-mil": "/images/roof-systems/tpo-80-mil-commercial-roofers-ontario-ca.webp"
+  },
+  "industries": {
+    "commercial-real-estate-reits": "/images/industries/commercial-real-estate-reits-commercial-roofers-ontario-ca.webp",
+    "food-processing-cold-storage": "/images/industries/food-processing-cold-storage-commercial-roofers-ontario-ca.webp",
+    "general-contractors": "/images/industries/general-contractors-commercial-roofers-ontario-ca.webp",
+    "hospitality-groups": "/images/industries/hospitality-groups-commercial-roofers-ontario-ca.webp",
+    "insurance-restoration": "/images/industries/insurance-restoration-commercial-roofers-ontario-ca.webp",
+    "logistics-3pl": "/images/industries/logistics-3pl-commercial-roofers-ontario-ca.webp",
+    "manufacturing-operators": "/images/industries/manufacturing-operators-commercial-roofers-ontario-ca.webp",
+    "property-management-firms": "/images/industries/property-management-firms-commercial-roofers-ontario-ca.webp"
+  },
+  "project-types": {
+    "auto-dealership-roofing": "/images/project-types/auto-dealership-roofing-commercial-roofers-ontario-ca.webp",
+    "big-box-retail-roofing": "/images/project-types/big-box-retail-roofing-commercial-roofers-ontario-ca.webp",
+    "cold-storage-roofing": "/images/project-types/cold-storage-roofing-commercial-roofers-ontario-ca.webp",
+    "distribution-center-roofing": "/images/project-types/distribution-center-roofing-commercial-roofers-ontario-ca.webp",
+    "event-venue-roofing": "/images/project-types/event-venue-roofing-commercial-roofers-ontario-ca.webp",
+    "hotel-hospitality-roofing": "/images/project-types/hotel-hospitality-roofing-commercial-roofers-ontario-ca.webp",
+    "industrial-flex-space-roofing": "/images/project-types/industrial-flex-space-roofing-commercial-roofers-ontario-ca.webp",
+    "manufacturing-plant-roofing": "/images/project-types/manufacturing-plant-roofing-commercial-roofers-ontario-ca.webp",
+    "multi-tenant-retail-strip-roofing": "/images/project-types/multi-tenant-retail-strip-roofing-commercial-roofers-ontario-ca.webp",
+    "office-complex-roofing": "/images/project-types/office-complex-roofing-commercial-roofers-ontario-ca.webp",
+    "self-storage-facility-roofing": "/images/project-types/self-storage-facility-roofing-commercial-roofers-ontario-ca.webp",
+    "warehouse-roofing": "/images/project-types/warehouse-roofing-commercial-roofers-ontario-ca.webp"
+  },
+  "manufacturers": {
+    "carlisle-syntec": "/images/manufacturers/carlisle-syntec-commercial-roofers-ontario-ca.webp",
+    "gaf-commercial": "/images/manufacturers/gaf-commercial-commercial-roofers-ontario-ca.webp",
+    "holcim-elevate": "/images/manufacturers/holcim-elevate-commercial-roofers-ontario-ca.webp",
+    "johns-manville": "/images/manufacturers/johns-manville-commercial-roofers-ontario-ca.webp",
+    "sika-sarnafil": "/images/manufacturers/sika-sarnafil-commercial-roofers-ontario-ca.webp",
+    "versico": "/images/manufacturers/versico-commercial-roofers-ontario-ca.webp"
+  }
+}

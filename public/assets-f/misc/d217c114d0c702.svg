@@ -1,0 +1,17 @@
+<svg title="hoffman logo dynamic favicon" xmlns="http://www.w3.org/2000/svg" width="40.97" height="40.98" viewBox="0 0 40.97 40.98">
+    <style>
+        .logo-top {
+            fill: #f5822b;
+        }
+        .logo-bottom {
+            fill: #0e121f;
+        }
+        @media (prefers-color-scheme: dark) {
+            .logo-bottom {
+                fill: #e8e8e3;
+            }
+        }
+    </style>
+    <path class="logo-top" d="M11.84,15.86c-1.69-0.02-3.11-1.31-3.52-3.05L5.36,0.01H3.1v19.5h34.75V0.01h-2.28l-2.96,12.8	c-0.42,1.74-1.83,3.03-3.52,3.05C29.09,15.86,11.84,15.86,11.84,15.86z"/>
+    <path class="logo-bottom" d="M11.85,25.13c-1.69,0.02-3.11,1.31-3.52,3.05l-2.96,12.8H3.09v-19.5h34.76v19.5h-2.28l-2.96-12.8	c-0.42-1.74-1.84-3.03-3.52-3.05H11.85z"/>
+</svg>
