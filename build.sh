@@ -3,16 +3,16 @@ set -euo pipefail
 ROOT=/Users/jackgreenberg/Desktop/rank-and-rent
 S=$ROOT/David/clones/scripts
 PROJ=$ROOT/commercial-roofing/commercialroofersontario-com
-REFHOST=hoffmancorp-com
+REFHOST=kjrve-com
 VOICE=$S/voice/commercial-roofing.json
-PAGES="home=https://www.hoffmancorp.com/,about=https://www.hoffmancorp.com/about/,contact=https://www.hoffmancorp.com/contact/,index=https://www.hoffmancorp.com/index/,slug=https://www.hoffmancorp.com/projects/commercial/"
+PAGES="home=https://www.kjrve.com/,about=https://www.kjrve.com/about/,contact=https://www.kjrve.com/contact/,index=https://www.kjrve.com/index/,slug=https://www.kjrve.com/projects/commercial/"
 CFG=$PROJ/home.config.json
 MAP=$S/relabel-map-$REFHOST.json
 CAP=$ROOT/David/clones/_captures/$REFHOST
 
 [ -f "$CFG" ] || { echo "MISSING $CFG"; exit 1; }
 [ -f "$MAP" ] || { echo "MISSING $MAP"; exit 1; }
-[ -f "$CAP/public/home.html.ref" ] || node "$S/faithful-home.mjs" --src "https://www.hoffmancorp.com/" --pages "$PAGES" --dir "$CAP"
+[ -f "$CAP/public/home.html.ref" ] || node "$S/faithful-home.mjs" --src "https://www.kjrve.com/" --pages "$PAGES" --dir "$CAP"
 mkdir -p "$PROJ/public"
 cp "$CAP"/public/*.html.ref "$PROJ/public/" 2>/dev/null || true
 [ -d "$PROJ/public/assets-f" ] || cp -R "$CAP/public/assets-f" "$PROJ/public/"
