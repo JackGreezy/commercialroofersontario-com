@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
 Sitemap: https://commercialroofersontario.com/sitemap.xml
-# AI: https://commercialroofersontario.com/llms.txt

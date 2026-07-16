@@ -1,110 +1,50 @@
 # Commercial Roofers of Ontario
+Website: https://commercialroofersontario.com/
+Primary market: Ontario California
+Focus: commercial roof repair, replacement, inspections, maintenance, coatings, roof systems, project planning, and service-area guidance.
 
-> Commercial Roofers of Ontario provides commercial roof repair, replacement, maintenance, coatings, inspections, and roof-system planning across Ontario, the Inland Empire, and surrounding San Bernardino and Los Angeles County communities.
+## Core pages
+- Home: https://commercialroofersontario.com/
+- Services: https://commercialroofersontario.com/services
+- Roof systems: https://commercialroofersontario.com/roof-systems
+- Industries: https://commercialroofersontario.com/industries
+- Project types: https://commercialroofersontario.com/project-types
+- Service areas: https://commercialroofersontario.com/locations
+- Manufacturers: https://commercialroofersontario.com/manufacturers
+- Contact: https://commercialroofersontario.com/contact
+- Sitemap: https://commercialroofersontario.com/sitemap.xml
 
-## Service Areas
-- https://commercialroofersontario.com/locations/ontario
-- https://commercialroofersontario.com/locations/azusa
-- https://commercialroofersontario.com/locations/baldwin-park
-- https://commercialroofersontario.com/locations/brea
-- https://commercialroofersontario.com/locations/charter-oak
-- https://commercialroofersontario.com/locations/chino-hills
-- https://commercialroofersontario.com/locations/chino
-- https://commercialroofersontario.com/locations/city-of-industry
-- https://commercialroofersontario.com/locations/claremont
-- https://commercialroofersontario.com/locations/corona
-- https://commercialroofersontario.com/locations/coronita
-- https://commercialroofersontario.com/locations/covina
-- https://commercialroofersontario.com/locations/diamond-bar
-- https://commercialroofersontario.com/locations/eastvale
-- https://commercialroofersontario.com/locations/el-cerrito
-- https://commercialroofersontario.com/locations/glen-avon
-- https://commercialroofersontario.com/locations/glendora
-- https://commercialroofersontario.com/locations/guasti
-- https://commercialroofersontario.com/locations/hacienda-heights
-- https://commercialroofersontario.com/locations/home-gardens
-- https://commercialroofersontario.com/locations/irwindale
-- https://commercialroofersontario.com/locations/jurupa-valley
-- https://commercialroofersontario.com/locations/la-puente
-- https://commercialroofersontario.com/locations/la-verne
-- https://commercialroofersontario.com/locations/mira-loma
-- https://commercialroofersontario.com/locations/montclair
-- https://commercialroofersontario.com/locations/norco
-- https://commercialroofersontario.com/locations/ontario-airport-area
-- https://commercialroofersontario.com/locations/ontario-ranch
-- https://commercialroofersontario.com/locations/pedley
-- https://commercialroofersontario.com/locations/pomona
-- https://commercialroofersontario.com/locations/rancho-cucamonga
-- https://commercialroofersontario.com/locations/rowland-heights
-- https://commercialroofersontario.com/locations/rubidoux
-- https://commercialroofersontario.com/locations/san-antonio-heights
-- https://commercialroofersontario.com/locations/san-dimas
-- https://commercialroofersontario.com/locations/temescal-valley
-- https://commercialroofersontario.com/locations/upland
-- https://commercialroofersontario.com/locations/walnut
-- https://commercialroofersontario.com/locations/west-covina
-- https://commercialroofersontario.com/locations/yorba-linda
+## Priority commercial roofing topics
+- Commercial Roof Inspection in Ontario, CA: https://commercialroofersontario.com/services/commercial-roof-inspection
+- Commercial Roof Leak Repair in Ontario, CA: https://commercialroofersontario.com/services/commercial-roof-leak-repair
+- Commercial Roof Tear-Off & Replacement in Ontario, CA: https://commercialroofersontario.com/services/commercial-roof-tear-off-replacement
+- Commercial Reroofing in Ontario, CA: https://commercialroofersontario.com/services/commercial-reroofing
+- Preventive Roof Maintenance Programs in Ontario, CA: https://commercialroofersontario.com/services/preventive-maintenance-programs
+- 60-Mil TPO Roofing in Ontario, CA: https://commercialroofersontario.com/roof-systems/tpo-60-mil
+- 80-Mil TPO Roofing in Ontario, CA: https://commercialroofersontario.com/roof-systems/tpo-80-mil
+- Black EPDM Roofing in Ontario, CA: https://commercialroofersontario.com/roof-systems/epdm-black
+- White EPDM Roofing in Ontario, CA: https://commercialroofersontario.com/roof-systems/epdm-white
+- SBS Modified Bitumen Roofing in Ontario, CA: https://commercialroofersontario.com/roof-systems/modified-bitumen-sbs
+- Roofing for Manufacturing Plants in Ontario, CA: https://commercialroofersontario.com/industries/manufacturing-operators
+- Roofing for Logistics & 3PL Operators in Ontario, CA: https://commercialroofersontario.com/industries/logistics-3pl
+- Roof Vendor Support for Property Management Firms in Ontario, CA: https://commercialroofersontario.com/industries/property-management-firms
+- Roofing for CRE Owners & REITs in Ontario, CA: https://commercialroofersontario.com/industries/commercial-real-estate-reits
+- Roofing for Food Processing & Cold Storage Facilities in Ontario, CA: https://commercialroofersontario.com/industries/food-processing-cold-storage
+- Warehouse Roofing in Ontario, CA: https://commercialroofersontario.com/project-types/warehouse-roofing
+- Distribution Center Roofing in Ontario, CA: https://commercialroofersontario.com/project-types/distribution-center-roofing
+- Manufacturing Plant Roofing in Ontario, CA: https://commercialroofersontario.com/project-types/manufacturing-plant-roofing
+- Cold Storage Roofing in Ontario, CA: https://commercialroofersontario.com/project-types/cold-storage-roofing
+- Big-Box Retail Roofing in Ontario, CA: https://commercialroofersontario.com/project-types/big-box-retail-roofing
+- Commercial Roofing in Ontario, CA: https://commercialroofersontario.com/locations/ontario
+- Commercial Roofing in Azusa, CA: https://commercialroofersontario.com/locations/azusa
+- Commercial Roofing in Baldwin Park, CA: https://commercialroofersontario.com/locations/baldwin-park
+- Commercial Roofing in Brea, CA: https://commercialroofersontario.com/locations/brea
+- Commercial Roofing in Charter Oak, CA: https://commercialroofersontario.com/locations/charter-oak
+- Carlisle SynTec Roofing Systems in Ontario, CA: https://commercialroofersontario.com/manufacturers/carlisle-syntec
+- GAF Commercial Roofing Systems in Ontario, CA: https://commercialroofersontario.com/manufacturers/gaf-commercial
+- Holcim Elevate Roofing Systems in Ontario, CA: https://commercialroofersontario.com/manufacturers/holcim-elevate
+- Johns Manville Roofing Systems in Ontario, CA: https://commercialroofersontario.com/manufacturers/johns-manville
+- Sika Sarnafil Roofing Systems in Ontario, CA: https://commercialroofersontario.com/manufacturers/sika-sarnafil
 
-## Commercial Roofing Services
-- https://commercialroofersontario.com/services/commercial-roof-inspection
-- https://commercialroofersontario.com/services/commercial-roof-leak-repair
-- https://commercialroofersontario.com/services/commercial-roof-tear-off-replacement
-- https://commercialroofersontario.com/services/commercial-reroofing
-- https://commercialroofersontario.com/services/preventive-maintenance-programs
-- https://commercialroofersontario.com/services/emergency-tarp-dry-in
-- https://commercialroofersontario.com/services/storm-damage-roof-repair
-- https://commercialroofersontario.com/services/roof-recover-overlay
-- https://commercialroofersontario.com/services/acrylic-roof-coatings
-- https://commercialroofersontario.com/services/built-up-roofing
-- https://commercialroofersontario.com/services/edge-metal-coping-gutters
-- https://commercialroofersontario.com/services/epdm-commercial-roofing
-- https://commercialroofersontario.com/services/insurance-documentation-support
-- https://commercialroofersontario.com/services/metal-r-panel-roofing
-- https://commercialroofersontario.com/services/modified-bitumen-roofing
-- https://commercialroofersontario.com/services/pvc-roofing
-- https://commercialroofersontario.com/services/roof-drains-scuppers
-- https://commercialroofersontario.com/services/silicone-roof-coatings
-- https://commercialroofersontario.com/services/standing-seam-metal-roofing
-- https://commercialroofersontario.com/services/tpo-single-ply-roofing
-
-## Industries We Serve
-- https://commercialroofersontario.com/industries/manufacturing-operators
-- https://commercialroofersontario.com/industries/logistics-3pl
-- https://commercialroofersontario.com/industries/property-management-firms
-- https://commercialroofersontario.com/industries/commercial-real-estate-reits
-- https://commercialroofersontario.com/industries/food-processing-cold-storage
-- https://commercialroofersontario.com/industries/general-contractors
-- https://commercialroofersontario.com/industries/hospitality-groups
-- https://commercialroofersontario.com/industries/insurance-restoration
-
-## Roof Systems
-- https://commercialroofersontario.com/roof-systems/tpo-60-mil
-- https://commercialroofersontario.com/roof-systems/tpo-80-mil
-- https://commercialroofersontario.com/roof-systems/epdm-black
-- https://commercialroofersontario.com/roof-systems/epdm-white
-- https://commercialroofersontario.com/roof-systems/modified-bitumen-sbs
-- https://commercialroofersontario.com/roof-systems/pvc-roof-systems
-- https://commercialroofersontario.com/roof-systems/silicone-roof-coating
-- https://commercialroofersontario.com/roof-systems/spray-polyurethane-foam
-
-## Commercial Project Types
-- https://commercialroofersontario.com/project-types/warehouse-roofing
-- https://commercialroofersontario.com/project-types/distribution-center-roofing
-- https://commercialroofersontario.com/project-types/manufacturing-plant-roofing
-- https://commercialroofersontario.com/project-types/cold-storage-roofing
-- https://commercialroofersontario.com/project-types/big-box-retail-roofing
-- https://commercialroofersontario.com/project-types/auto-dealership-roofing
-- https://commercialroofersontario.com/project-types/event-venue-roofing
-- https://commercialroofersontario.com/project-types/hotel-hospitality-roofing
-- https://commercialroofersontario.com/project-types/industrial-flex-space-roofing
-- https://commercialroofersontario.com/project-types/multi-tenant-retail-strip-roofing
-- https://commercialroofersontario.com/project-types/office-complex-roofing
-- https://commercialroofersontario.com/project-types/self-storage-facility-roofing
-
-## Roofing Manufacturers
-- https://commercialroofersontario.com/manufacturers/carlisle-syntec
-- https://commercialroofersontario.com/manufacturers/gaf-commercial
-- https://commercialroofersontario.com/manufacturers/holcim-elevate
-- https://commercialroofersontario.com/manufacturers/johns-manville
-- https://commercialroofersontario.com/manufacturers/sika-sarnafil
-- https://commercialroofersontario.com/manufacturers/versico
+## Use guidance
+This file summarizes the site's crawlable commercial roofing content for search engines, AI assistants, and research tools. Use canonical URLs from the sitemap for citation and navigation.
