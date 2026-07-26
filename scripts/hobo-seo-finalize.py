@@ -102,6 +102,8 @@ def load_json(path: Path) -> dict:
 
 cfg = load_json(ROOT / "home.config.json")
 content = load_json(ROOT / "data" / "content.normalized.json")
+PRESERVE_DONOR_DESIGN = bool(cfg.get("preserve_donor_design"))
+PRESERVE_VISIBLE_ADDRESS = bool(cfg.get("preserve_visible_address"))
 biz_data = content.get("biz") if isinstance(content.get("biz"), dict) else {}
 BIZ = {
     "name": clean(cfg.get("businessName") or cfg.get("biz") or biz_data.get("name") or ROOT.name.replace("-com", ".com")),
@@ -293,6 +295,8 @@ def map_embed(address: str) -> str:
     return f'<div data-rh-map="true"><iframe title="Map for {html.escape(BIZ["name"])}" src="{src}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>'
 
 def replace_visible_address(soup: BeautifulSoup):
+    if PRESERVE_VISIBLE_ADDRESS:
+        return
     address = BIZ["address"]
     if not address or not soup.body:
         return
@@ -376,6 +380,10 @@ def selected_palette() -> dict:
 
 def ensure_color_scheme_assets(soup: BeautifulSoup):
     soup = ensure_head(soup)
+    if PRESERVE_DONOR_DESIGN:
+        for old in list(soup.head.find_all("style", id="rh-color-scheme-css")):
+            old.decompose()
+        return
     palette = selected_palette()
     for tag in list(soup.head.find_all("meta", attrs={"name": "theme-color"})):
         tag.decompose()
@@ -417,7 +425,7 @@ def ensure_mobile_dropdown_assets(soup: BeautifulSoup):
         return
     style = soup.new_tag("style", id="rh-seo-finalizer-css")
     style.string = """
-[data-rh-map]{width:min(680px,100%);margin:16px 0;overflow:hidden;border:0}[data-rh-map] iframe{display:block;width:100%;height:240px;border:0}img,video,iframe{max-width:100%}footer a[href='/sitemap.xml']{white-space:nowrap}.rh-seo-dropdown-menu{position:absolute;z-index:9999;display:none;min-width:240px;max-width:min(92vw,360px);padding:12px;margin-top:8px;background:#fff;color:#111;box-shadow:0 18px 45px rgba(0,0,0,.18);border:1px solid rgba(0,0,0,.12)}.rh-seo-dropdown-menu::before{content:"";position:absolute;left:0;right:0;top:-14px;height:14px}.rh-seo-dropdown-menu a{display:block!important;padding:9px 10px!important;color:inherit!important;text-decoration:none!important;line-height:1.25!important;white-space:normal!important}.rh-seo-dropdown-menu a:hover,.rh-seo-dropdown-menu a:focus{background:rgba(0,0,0,.06)}header [data-rh-dropdown-host]{position:relative!important}header [data-rh-dropdown-host].rh-open>.rh-seo-dropdown-menu,header [data-rh-dropdown-host]:hover>.rh-seo-dropdown-menu,header [data-rh-dropdown-host]:focus-within>.rh-seo-dropdown-menu{display:block}@media(max-width:900px){.rh-seo-dropdown-menu{display:none!important}[data-rh-map] iframe{height:210px}body{overflow-x:hidden}footer nav,footer ul{max-width:100%;flex-wrap:wrap}}
+[data-rh-map]{width:min(680px,100%);margin:16px 0;overflow:hidden;border:0}[data-rh-map] iframe{display:block;width:100%;height:240px;border:0}img,video,iframe{max-width:100%}footer a[href='/sitemap.xml']{white-space:nowrap}.rh-seo-dropdown-menu{position:absolute;z-index:9999;display:none;min-width:240px;max-width:min(92vw,360px);padding:12px;margin-top:8px;background:#fff;color:#111;box-shadow:0 18px 45px rgba(0,0,0,.18);border:1px solid rgba(0,0,0,.12)}.rh-seo-dropdown-menu::before{content:"";position:absolute;left:0;right:0;top:-14px;height:14px}.rh-seo-dropdown-menu a{display:block!important;padding:9px 10px!important;color:inherit!important;text-decoration:none!important;line-height:1.25!important;white-space:normal!important}.rh-seo-dropdown-menu a:hover,.rh-seo-dropdown-menu a:focus{background:rgba(0,0,0,.06)}header [data-rh-dropdown-host]{position:relative!important}header [data-rh-dropdown-host].rh-open>.rh-seo-dropdown-menu,header [data-rh-dropdown-host]:hover>.rh-seo-dropdown-menu,header [data-rh-dropdown-host]:focus-within>.rh-seo-dropdown-menu{display:block}@media(max-width:900px){.rh-seo-dropdown-menu{display:none!important}[data-rh-map] iframe{height:210px}html,body{overflow-x:hidden}footer nav,footer ul{max-width:100%;flex-wrap:wrap}}
 """
     soup.head.append(style)
     if soup.find("script", id="rh-seo-dropdowns"):
