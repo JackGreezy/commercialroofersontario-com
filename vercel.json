@@ -75,5 +75,432 @@
       "source": "/capabilities/roof-asset-management/",
       "destination": "/capabilities/roof-asset-management.html"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/locations/:path*",
+      "destination": "/service-areas/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/locations",
+      "destination": "/service-areas",
+      "permanent": true
+    },
+    {
+      "source": "/locations/azusa",
+      "destination": "/service-areas/azusa",
+      "permanent": true
+    },
+    {
+      "source": "/locations/azusa/",
+      "destination": "/service-areas/azusa",
+      "permanent": true
+    },
+    {
+      "source": "/locations/baldwin-park",
+      "destination": "/service-areas/baldwin-park",
+      "permanent": true
+    },
+    {
+      "source": "/locations/baldwin-park/",
+      "destination": "/service-areas/baldwin-park",
+      "permanent": true
+    },
+    {
+      "source": "/locations/brea",
+      "destination": "/service-areas/brea",
+      "permanent": true
+    },
+    {
+      "source": "/locations/brea/",
+      "destination": "/service-areas/brea",
+      "permanent": true
+    },
+    {
+      "source": "/locations/charter-oak",
+      "destination": "/service-areas/charter-oak",
+      "permanent": true
+    },
+    {
+      "source": "/locations/charter-oak/",
+      "destination": "/service-areas/charter-oak",
+      "permanent": true
+    },
+    {
+      "source": "/locations/chino",
+      "destination": "/service-areas/chino",
+      "permanent": true
+    },
+    {
+      "source": "/locations/chino/",
+      "destination": "/service-areas/chino",
+      "permanent": true
+    },
+    {
+      "source": "/locations/chino-hills",
+      "destination": "/service-areas/chino-hills",
+      "permanent": true
+    },
+    {
+      "source": "/locations/chino-hills/",
+      "destination": "/service-areas/chino-hills",
+      "permanent": true
+    },
+    {
+      "source": "/locations/city-of-industry",
+      "destination": "/service-areas/city-of-industry",
+      "permanent": true
+    },
+    {
+      "source": "/locations/city-of-industry/",
+      "destination": "/service-areas/city-of-industry",
+      "permanent": true
+    },
+    {
+      "source": "/locations/claremont",
+      "destination": "/service-areas/claremont",
+      "permanent": true
+    },
+    {
+      "source": "/locations/claremont/",
+      "destination": "/service-areas/claremont",
+      "permanent": true
+    },
+    {
+      "source": "/locations/corona",
+      "destination": "/service-areas/corona",
+      "permanent": true
+    },
+    {
+      "source": "/locations/corona/",
+      "destination": "/service-areas/corona",
+      "permanent": true
+    },
+    {
+      "source": "/locations/coronita",
+      "destination": "/service-areas/coronita",
+      "permanent": true
+    },
+    {
+      "source": "/locations/coronita/",
+      "destination": "/service-areas/coronita",
+      "permanent": true
+    },
+    {
+      "source": "/locations/covina",
+      "destination": "/service-areas/covina",
+      "permanent": true
+    },
+    {
+      "source": "/locations/covina/",
+      "destination": "/service-areas/covina",
+      "permanent": true
+    },
+    {
+      "source": "/locations/diamond-bar",
+      "destination": "/service-areas/diamond-bar",
+      "permanent": true
+    },
+    {
+      "source": "/locations/diamond-bar/",
+      "destination": "/service-areas/diamond-bar",
+      "permanent": true
+    },
+    {
+      "source": "/locations/eastvale",
+      "destination": "/service-areas/eastvale",
+      "permanent": true
+    },
+    {
+      "source": "/locations/eastvale/",
+      "destination": "/service-areas/eastvale",
+      "permanent": true
+    },
+    {
+      "source": "/locations/el-cerrito",
+      "destination": "/service-areas/el-cerrito",
+      "permanent": true
+    },
+    {
+      "source": "/locations/el-cerrito/",
+      "destination": "/service-areas/el-cerrito",
+      "permanent": true
+    },
+    {
+      "source": "/locations/glen-avon",
+      "destination": "/service-areas/glen-avon",
+      "permanent": true
+    },
+    {
+      "source": "/locations/glen-avon/",
+      "destination": "/service-areas/glen-avon",
+      "permanent": true
+    },
+    {
+      "source": "/locations/glendora",
+      "destination": "/service-areas/glendora",
+      "permanent": true
+    },
+    {
+      "source": "/locations/glendora/",
+      "destination": "/service-areas/glendora",
+      "permanent": true
+    },
+    {
+      "source": "/locations/guasti",
+      "destination": "/service-areas/guasti",
+      "permanent": true
+    },
+    {
+      "source": "/locations/guasti/",
+      "destination": "/service-areas/guasti",
+      "permanent": true
+    },
+    {
+      "source": "/locations/hacienda-heights",
+      "destination": "/service-areas/hacienda-heights",
+      "permanent": true
+    },
+    {
+      "source": "/locations/hacienda-heights/",
+      "destination": "/service-areas/hacienda-heights",
+      "permanent": true
+    },
+    {
+      "source": "/locations/home-gardens",
+      "destination": "/service-areas/home-gardens",
+      "permanent": true
+    },
+    {
+      "source": "/locations/home-gardens/",
+      "destination": "/service-areas/home-gardens",
+      "permanent": true
+    },
+    {
+      "source": "/locations/irwindale",
+      "destination": "/service-areas/irwindale",
+      "permanent": true
+    },
+    {
+      "source": "/locations/irwindale/",
+      "destination": "/service-areas/irwindale",
+      "permanent": true
+    },
+    {
+      "source": "/locations/jurupa-valley",
+      "destination": "/service-areas/jurupa-valley",
+      "permanent": true
+    },
+    {
+      "source": "/locations/jurupa-valley/",
+      "destination": "/service-areas/jurupa-valley",
+      "permanent": true
+    },
+    {
+      "source": "/locations/la-puente",
+      "destination": "/service-areas/la-puente",
+      "permanent": true
+    },
+    {
+      "source": "/locations/la-puente/",
+      "destination": "/service-areas/la-puente",
+      "permanent": true
+    },
+    {
+      "source": "/locations/la-verne",
+      "destination": "/service-areas/la-verne",
+      "permanent": true
+    },
+    {
+      "source": "/locations/la-verne/",
+      "destination": "/service-areas/la-verne",
+      "permanent": true
+    },
+    {
+      "source": "/locations/mira-loma",
+      "destination": "/service-areas/mira-loma",
+      "permanent": true
+    },
+    {
+      "source": "/locations/mira-loma/",
+      "destination": "/service-areas/mira-loma",
+      "permanent": true
+    },
+    {
+      "source": "/locations/montclair",
+      "destination": "/service-areas/montclair",
+      "permanent": true
+    },
+    {
+      "source": "/locations/montclair/",
+      "destination": "/service-areas/montclair",
+      "permanent": true
+    },
+    {
+      "source": "/locations/norco",
+      "destination": "/service-areas/norco",
+      "permanent": true
+    },
+    {
+      "source": "/locations/norco/",
+      "destination": "/service-areas/norco",
+      "permanent": true
+    },
+    {
+      "source": "/locations/ontario",
+      "destination": "/service-areas/ontario",
+      "permanent": true
+    },
+    {
+      "source": "/locations/ontario/",
+      "destination": "/service-areas/ontario",
+      "permanent": true
+    },
+    {
+      "source": "/locations/ontario-airport-area",
+      "destination": "/service-areas/ontario-airport-area",
+      "permanent": true
+    },
+    {
+      "source": "/locations/ontario-airport-area/",
+      "destination": "/service-areas/ontario-airport-area",
+      "permanent": true
+    },
+    {
+      "source": "/locations/ontario-ranch",
+      "destination": "/service-areas/ontario-ranch",
+      "permanent": true
+    },
+    {
+      "source": "/locations/ontario-ranch/",
+      "destination": "/service-areas/ontario-ranch",
+      "permanent": true
+    },
+    {
+      "source": "/locations/pedley",
+      "destination": "/service-areas/pedley",
+      "permanent": true
+    },
+    {
+      "source": "/locations/pedley/",
+      "destination": "/service-areas/pedley",
+      "permanent": true
+    },
+    {
+      "source": "/locations/pomona",
+      "destination": "/service-areas/pomona",
+      "permanent": true
+    },
+    {
+      "source": "/locations/pomona/",
+      "destination": "/service-areas/pomona",
+      "permanent": true
+    },
+    {
+      "source": "/locations/rancho-cucamonga",
+      "destination": "/service-areas/rancho-cucamonga",
+      "permanent": true
+    },
+    {
+      "source": "/locations/rancho-cucamonga/",
+      "destination": "/service-areas/rancho-cucamonga",
+      "permanent": true
+    },
+    {
+      "source": "/locations/rowland-heights",
+      "destination": "/service-areas/rowland-heights",
+      "permanent": true
+    },
+    {
+      "source": "/locations/rowland-heights/",
+      "destination": "/service-areas/rowland-heights",
+      "permanent": true
+    },
+    {
+      "source": "/locations/rubidoux",
+      "destination": "/service-areas/rubidoux",
+      "permanent": true
+    },
+    {
+      "source": "/locations/rubidoux/",
+      "destination": "/service-areas/rubidoux",
+      "permanent": true
+    },
+    {
+      "source": "/locations/san-antonio-heights",
+      "destination": "/service-areas/san-antonio-heights",
+      "permanent": true
+    },
+    {
+      "source": "/locations/san-antonio-heights/",
+      "destination": "/service-areas/san-antonio-heights",
+      "permanent": true
+    },
+    {
+      "source": "/locations/san-dimas",
+      "destination": "/service-areas/san-dimas",
+      "permanent": true
+    },
+    {
+      "source": "/locations/san-dimas/",
+      "destination": "/service-areas/san-dimas",
+      "permanent": true
+    },
+    {
+      "source": "/locations/temescal-valley",
+      "destination": "/service-areas/temescal-valley",
+      "permanent": true
+    },
+    {
+      "source": "/locations/temescal-valley/",
+      "destination": "/service-areas/temescal-valley",
+      "permanent": true
+    },
+    {
+      "source": "/locations/upland",
+      "destination": "/service-areas/upland",
+      "permanent": true
+    },
+    {
+      "source": "/locations/upland/",
+      "destination": "/service-areas/upland",
+      "permanent": true
+    },
+    {
+      "source": "/locations/walnut",
+      "destination": "/service-areas/walnut",
+      "permanent": true
+    },
+    {
+      "source": "/locations/walnut/",
+      "destination": "/service-areas/walnut",
+      "permanent": true
+    },
+    {
+      "source": "/locations/west-covina",
+      "destination": "/service-areas/west-covina",
+      "permanent": true
+    },
+    {
+      "source": "/locations/west-covina/",
+      "destination": "/service-areas/west-covina",
+      "permanent": true
+    },
+    {
+      "source": "/locations/yorba-linda",
+      "destination": "/service-areas/yorba-linda",
+      "permanent": true
+    },
+    {
+      "source": "/locations/yorba-linda/",
+      "destination": "/service-areas/yorba-linda",
+      "permanent": true
+    },
+    {
+      "source": "/locations/",
+      "destination": "/service-areas",
+      "permanent": true
+    }
   ]
 }

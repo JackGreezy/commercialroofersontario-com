@@ -10,7 +10,7 @@
  "taxonomies": {
   "locations": {
    "title": "Service Areas",
-   "route": "/locations",
+   "route": "/service-areas",
    "items": [
     {
      "slug": "ontario",
@@ -26,15 +26,15 @@
      "related": [
       {
        "label": "Commercial Roofing Around Ontario International Airport",
-       "href": "/locations/ontario-airport-area"
+       "href": "/service-areas/ontario-airport-area"
       },
       {
        "label": "Commercial Roof Planning for Ontario Ranch Build-Outs",
-       "href": "/locations/ontario-ranch"
+       "href": "/service-areas/ontario-ranch"
       },
       {
        "label": "Roof Budgets for Rancho Cucamonga Logistics and Retail",
-       "href": "/locations/rancho-cucamonga"
+       "href": "/service-areas/rancho-cucamonga"
       },
       {
        "label": "Commercial Roof Inspection and Condition Reporting",
@@ -88,23 +88,23 @@
      "related": [
       {
        "label": "Roof Bids for Yorba Linda's Savi Ranch Corridor and Hillside Commercial",
-       "href": "/locations/yorba-linda"
+       "href": "/service-areas/yorba-linda"
       },
       {
        "label": "Roof Replacement Numbers for Baldwin Park's I-10 Industrial Corridor",
-       "href": "/locations/baldwin-park"
+       "href": "/service-areas/baldwin-park"
       },
       {
        "label": "Roof Estimating for Brea's Office Parks and Legacy Oil-Field Buildings",
-       "href": "/locations/brea"
+       "href": "/service-areas/brea"
       },
       {
        "label": "Arrow Highway Commercial Roofing in Charter Oak",
-       "href": "/locations/charter-oak"
+       "href": "/service-areas/charter-oak"
       },
       {
        "label": "Commercial Roof Budgets for Chino Hills Retail and Medical Buildings",
-       "href": "/locations/chino-hills"
+       "href": "/service-areas/chino-hills"
       },
       {
        "label": "Why the Roof Edge Fails Before the Field Ever Does",
@@ -154,23 +154,23 @@
      "related": [
       {
        "label": "Commercial Roof Estimates Near the University of La Verne and Brackett Field",
-       "href": "/locations/la-verne"
+       "href": "/service-areas/la-verne"
       },
       {
        "label": "Recover-or-Reroof Math for Mira Loma's Historic Warehouse District",
-       "href": "/locations/mira-loma"
+       "href": "/service-areas/mira-loma"
       },
       {
        "label": "Commercial Roofing Estimates and Service in Montclair, CA",
-       "href": "/locations/montclair"
+       "href": "/service-areas/montclair"
       },
       {
        "label": "Commercial Roofing for Norco's Equestrian and Industrial Buildings",
-       "href": "/locations/norco"
+       "href": "/service-areas/norco"
       },
       {
        "label": "Estimating Roof Work Around ONT's Cargo Ramp and Hotel Corridor",
-       "href": "/locations/ontario-airport-area"
+       "href": "/service-areas/ontario-airport-area"
       },
       {
        "label": "Standing Seam Metal: The Roof You Choose for the Building's Face",
@@ -220,23 +220,23 @@
      "related": [
       {
        "label": "Commercial Roof Work in the Guasti District",
-       "href": "/locations/guasti"
+       "href": "/service-areas/guasti"
       },
       {
        "label": "Commercial Roof Numbers for Hacienda Heights' 60 Freeway Corridor",
-       "href": "/locations/hacienda-heights"
+       "href": "/service-areas/hacienda-heights"
       },
       {
        "label": "Roofing Contractor for Home Gardens' Magnolia Avenue Corridor",
-       "href": "/locations/home-gardens"
+       "href": "/service-areas/home-gardens"
       },
       {
        "label": "Estimating Roofs for Irwindale's Quarry and Heavy-Industrial Buildings",
-       "href": "/locations/irwindale"
+       "href": "/service-areas/irwindale"
       },
       {
        "label": "Estimating Roof Work Around Jurupa Valley's Warehouses, Quarries, and Truck Yards",
-       "href": "/locations/jurupa-valley"
+       "href": "/service-areas/jurupa-valley"
       },
       {
        "label": "EPDM Still Makes Sense on Certain Ontario Roofs",
@@ -286,23 +286,23 @@
      "related": [
       {
        "label": "Commercial Roofs Along Temescal Canyon Road in El Cerrito",
-       "href": "/locations/el-cerrito"
+       "href": "/service-areas/el-cerrito"
       },
       {
        "label": "Mission Boulevard Commercial Roofing in Glen Avon",
-       "href": "/locations/glen-avon"
+       "href": "/service-areas/glen-avon"
       },
       {
        "label": "Commercial Roof Contractors for Glendora's Foothill Corridor",
-       "href": "/locations/glendora"
+       "href": "/service-areas/glendora"
       },
       {
        "label": "Commercial Roof Work in the Guasti District",
-       "href": "/locations/guasti"
+       "href": "/service-areas/guasti"
       },
       {
        "label": "Commercial Roof Numbers for Hacienda Heights' 60 Freeway Corridor",
-       "href": "/locations/hacienda-heights"
+       "href": "/service-areas/hacienda-heights"
       },
       {
        "label": "EPDM Still Makes Sense on Certain Ontario Roofs",
@@ -352,23 +352,23 @@
      "related": [
       {
        "label": "Estimating Roofs for Irwindale's Quarry and Heavy-Industrial Buildings",
-       "href": "/locations/irwindale"
+       "href": "/service-areas/irwindale"
       },
       {
        "label": "Estimating Roof Work Around Jurupa Valley's Warehouses, Quarries, and Truck Yards",
-       "href": "/locations/jurupa-valley"
+       "href": "/service-areas/jurupa-valley"
       },
       {
        "label": "Commercial Roof Bids for La Puente's Valley Boulevard and Amar Road Buildings",
-       "href": "/locations/la-puente"
+       "href": "/service-areas/la-puente"
       },
       {
        "label": "Commercial Roof Estimates Near the University of La Verne and Brackett Field",
-       "href": "/locations/la-verne"
+       "href": "/service-areas/la-verne"
       },
       {
        "label": "Recover-or-Reroof Math for Mira Loma's Historic Warehouse District",
-       "href": "/locations/mira-loma"
+       "href": "/service-areas/mira-loma"
       },
       {
        "label": "Finding the Real Source Before We Touch a Roof Leak Near the Airport",
@@ -414,23 +414,23 @@
      "related": [
       {
        "label": "Commercial Roof Contractors for Glendora's Foothill Corridor",
-       "href": "/locations/glendora"
+       "href": "/service-areas/glendora"
       },
       {
        "label": "Commercial Roof Work in the Guasti District",
-       "href": "/locations/guasti"
+       "href": "/service-areas/guasti"
       },
       {
        "label": "Commercial Roof Numbers for Hacienda Heights' 60 Freeway Corridor",
-       "href": "/locations/hacienda-heights"
+       "href": "/service-areas/hacienda-heights"
       },
       {
        "label": "Roofing Contractor for Home Gardens' Magnolia Avenue Corridor",
-       "href": "/locations/home-gardens"
+       "href": "/service-areas/home-gardens"
       },
       {
        "label": "Estimating Roofs for Irwindale's Quarry and Heavy-Industrial Buildings",
-       "href": "/locations/irwindale"
+       "href": "/service-areas/irwindale"
       },
       {
        "label": "Stopping Water Tonight, Fixing the Roof Later",
@@ -480,23 +480,23 @@
      "related": [
       {
        "label": "Commercial Roof Numbers for Hacienda Heights' 60 Freeway Corridor",
-       "href": "/locations/hacienda-heights"
+       "href": "/service-areas/hacienda-heights"
       },
       {
        "label": "Roofing Contractor for Home Gardens' Magnolia Avenue Corridor",
-       "href": "/locations/home-gardens"
+       "href": "/service-areas/home-gardens"
       },
       {
        "label": "Estimating Roofs for Irwindale's Quarry and Heavy-Industrial Buildings",
-       "href": "/locations/irwindale"
+       "href": "/service-areas/irwindale"
       },
       {
        "label": "Estimating Roof Work Around Jurupa Valley's Warehouses, Quarries, and Truck Yards",
-       "href": "/locations/jurupa-valley"
+       "href": "/service-areas/jurupa-valley"
       },
       {
        "label": "Commercial Roof Bids for La Puente's Valley Boulevard and Amar Road Buildings",
-       "href": "/locations/la-puente"
+       "href": "/service-areas/la-puente"
       },
       {
        "label": "Why Most Roof Claims Get Underpaid at the Estimate Stage",
@@ -546,23 +546,23 @@
      "related": [
       {
        "label": "Roofing Van Buren Boulevard's Commercial Buildings in Pedley",
-       "href": "/locations/pedley"
+       "href": "/service-areas/pedley"
       },
       {
        "label": "Roof Estimates for Fairplex, Pomona's Industrial Core, and the Hospital District",
-       "href": "/locations/pomona"
+       "href": "/service-areas/pomona"
       },
       {
        "label": "Roof Budgets for Rancho Cucamonga's Warehouses, Retail Centers, and Brewery Conversions",
-       "href": "/locations/rancho-cucamonga"
+       "href": "/service-areas/rancho-cucamonga"
       },
       {
        "label": "Roof Estimating for Rowland Heights' Colima Road Retail Plazas",
-       "href": "/locations/rowland-heights"
+       "href": "/service-areas/rowland-heights"
       },
       {
        "label": "Highway 60 and Riverfront Commercial Roofing in Rubidoux",
-       "href": "/locations/rubidoux"
+       "href": "/service-areas/rubidoux"
       },
       {
        "label": "Standing Seam Metal: The Roof You Choose for the Building's Face",
@@ -612,23 +612,23 @@
      "related": [
       {
        "label": "Roof Budgets for Rancho Cucamonga's Warehouses, Retail Centers, and Brewery Conversions",
-       "href": "/locations/rancho-cucamonga"
+       "href": "/service-areas/rancho-cucamonga"
       },
       {
        "label": "Roof Estimating for Rowland Heights' Colima Road Retail Plazas",
-       "href": "/locations/rowland-heights"
+       "href": "/service-areas/rowland-heights"
       },
       {
        "label": "Highway 60 and Riverfront Commercial Roofing in Rubidoux",
-       "href": "/locations/rubidoux"
+       "href": "/service-areas/rubidoux"
       },
       {
        "label": "Small Commercial Roofing in San Antonio Heights",
-       "href": "/locations/san-antonio-heights"
+       "href": "/service-areas/san-antonio-heights"
       },
       {
        "label": "Commercial Roofing Along San Dimas Business Parks and Old Town",
-       "href": "/locations/san-dimas"
+       "href": "/service-areas/san-dimas"
       },
       {
        "label": "Modified Bitumen Still Earns a Spot on Heavy-Traffic Roofs",
@@ -678,23 +678,23 @@
      "related": [
       {
        "label": "Roof Estimates for Azusa's Canyon-Edge Industrial and Campus Buildings",
-       "href": "/locations/azusa"
+       "href": "/service-areas/azusa"
       },
       {
        "label": "Roof Replacement Numbers for Baldwin Park's I-10 Industrial Corridor",
-       "href": "/locations/baldwin-park"
+       "href": "/service-areas/baldwin-park"
       },
       {
        "label": "Roof Estimating for Brea's Office Parks and Legacy Oil-Field Buildings",
-       "href": "/locations/brea"
+       "href": "/service-areas/brea"
       },
       {
        "label": "Arrow Highway Commercial Roofing in Charter Oak",
-       "href": "/locations/charter-oak"
+       "href": "/service-areas/charter-oak"
       },
       {
        "label": "Commercial Roof Budgets for Chino Hills Retail and Medical Buildings",
-       "href": "/locations/chino-hills"
+       "href": "/service-areas/chino-hills"
       },
       {
        "label": "Reading Wind Damage on a Roof Before the Repair Estimate Is Written",
@@ -744,23 +744,23 @@
      "related": [
       {
        "label": "Commercial Roofing Contractors Serving Upland, CA",
-       "href": "/locations/upland"
+       "href": "/service-areas/upland"
       },
       {
        "label": "Commercial Roofing for Walnut's Campus and Business Park Buildings",
-       "href": "/locations/walnut"
+       "href": "/service-areas/walnut"
       },
       {
        "label": "Commercial Roof Estimates for West Covina's Retail Corridors",
-       "href": "/locations/west-covina"
+       "href": "/service-areas/west-covina"
       },
       {
        "label": "Roof Bids for Yorba Linda's Savi Ranch Corridor and Hillside Commercial",
-       "href": "/locations/yorba-linda"
+       "href": "/service-areas/yorba-linda"
       },
       {
        "label": "Roof Estimates for Azusa's Canyon-Edge Industrial and Campus Buildings",
-       "href": "/locations/azusa"
+       "href": "/service-areas/azusa"
       },
       {
        "label": "Reading Wind Damage on a Roof Before the Repair Estimate Is Written",
@@ -810,23 +810,23 @@
      "related": [
       {
        "label": "Highway 60 and Riverfront Commercial Roofing in Rubidoux",
-       "href": "/locations/rubidoux"
+       "href": "/service-areas/rubidoux"
       },
       {
        "label": "Small Commercial Roofing in San Antonio Heights",
-       "href": "/locations/san-antonio-heights"
+       "href": "/service-areas/san-antonio-heights"
       },
       {
        "label": "Commercial Roofing Along San Dimas Business Parks and Old Town",
-       "href": "/locations/san-dimas"
+       "href": "/service-areas/san-dimas"
       },
       {
        "label": "Roofing the I-15 Corridor Through Temescal Valley",
-       "href": "/locations/temescal-valley"
+       "href": "/service-areas/temescal-valley"
       },
       {
        "label": "Commercial Roofing Contractors Serving Upland, CA",
-       "href": "/locations/upland"
+       "href": "/service-areas/upland"
       },
       {
        "label": "Recover Only Works If the Numbers Underneath Actually Support It",
@@ -876,23 +876,23 @@
      "related": [
       {
        "label": "Budgeting Roof Work for Corona's Manufacturing Plants and 91-Corridor Distribution",
-       "href": "/locations/corona"
+       "href": "/service-areas/corona"
       },
       {
        "label": "Commercial Roofing on Corona's Western Edge in Coronita",
-       "href": "/locations/coronita"
+       "href": "/service-areas/coronita"
       },
       {
        "label": "Commercial Roofing Estimates and Replacement in Covina",
-       "href": "/locations/covina"
+       "href": "/service-areas/covina"
       },
       {
        "label": "Commercial Roof Numbers for Diamond Bar's Office and Retail Stock",
-       "href": "/locations/diamond-bar"
+       "href": "/service-areas/diamond-bar"
       },
       {
        "label": "Commercial Roofs Along Temescal Canyon Road in El Cerrito",
-       "href": "/locations/el-cerrito"
+       "href": "/service-areas/el-cerrito"
       },
       {
        "label": "Full Tear-Off Roof Replacement on Ontario's Biggest Decks",
@@ -938,23 +938,23 @@
      "related": [
       {
        "label": "Commercial Roof Budgets for Chino Hills Retail and Medical Buildings",
-       "href": "/locations/chino-hills"
+       "href": "/service-areas/chino-hills"
       },
       {
        "label": "Pricing Roof Work Across Chino's Logistics Parks, Former Dairy Land, and Airport Hangars",
-       "href": "/locations/chino"
+       "href": "/service-areas/chino"
       },
       {
        "label": "Pricing Roof Work in a City Built Entirely for Industry",
-       "href": "/locations/city-of-industry"
+       "href": "/service-areas/city-of-industry"
       },
       {
        "label": "Pricing Commercial Roofs Across Claremont's Campus and Village Buildings",
-       "href": "/locations/claremont"
+       "href": "/service-areas/claremont"
       },
       {
        "label": "Budgeting Roof Work for Corona's Manufacturing Plants and 91-Corridor Distribution",
-       "href": "/locations/corona"
+       "href": "/service-areas/corona"
       },
       {
        "label": "Silicone Coating: The Cheapest Way to Buy Real Years Back From an Aging Roof",
@@ -1004,23 +1004,23 @@
      "related": [
       {
        "label": "Commercial Roofing for Norco's Equestrian and Industrial Buildings",
-       "href": "/locations/norco"
+       "href": "/service-areas/norco"
       },
       {
        "label": "Estimating Roof Work Around ONT's Cargo Ramp and Hotel Corridor",
-       "href": "/locations/ontario-airport-area"
+       "href": "/service-areas/ontario-airport-area"
       },
       {
        "label": "Roof Pricing for Ontario Ranch's New Logistics and Retail Build-Out",
-       "href": "/locations/ontario-ranch"
+       "href": "/service-areas/ontario-ranch"
       },
       {
        "label": "Roofing Van Buren Boulevard's Commercial Buildings in Pedley",
-       "href": "/locations/pedley"
+       "href": "/service-areas/pedley"
       },
       {
        "label": "Roof Estimates for Fairplex, Pomona's Industrial Core, and the Hospital District",
-       "href": "/locations/pomona"
+       "href": "/service-areas/pomona"
       },
       {
        "label": "Recover Only Works If the Numbers Underneath Actually Support It",
@@ -1070,23 +1070,23 @@
      "related": [
       {
        "label": "Pricing Commercial Roofs Across Claremont's Campus and Village Buildings",
-       "href": "/locations/claremont"
+       "href": "/service-areas/claremont"
       },
       {
        "label": "Budgeting Roof Work for Corona's Manufacturing Plants and 91-Corridor Distribution",
-       "href": "/locations/corona"
+       "href": "/service-areas/corona"
       },
       {
        "label": "Commercial Roofing on Corona's Western Edge in Coronita",
-       "href": "/locations/coronita"
+       "href": "/service-areas/coronita"
       },
       {
        "label": "Commercial Roofing Estimates and Replacement in Covina",
-       "href": "/locations/covina"
+       "href": "/service-areas/covina"
       },
       {
        "label": "Commercial Roof Numbers for Diamond Bar's Office and Retail Stock",
-       "href": "/locations/diamond-bar"
+       "href": "/service-areas/diamond-bar"
       },
       {
        "label": "The Math Behind Paying for a Roof Before It Leaks",
@@ -1132,23 +1132,23 @@
      "related": [
       {
        "label": "Roof Estimates for Fairplex, Pomona's Industrial Core, and the Hospital District",
-       "href": "/locations/pomona"
+       "href": "/service-areas/pomona"
       },
       {
        "label": "Roof Budgets for Rancho Cucamonga's Warehouses, Retail Centers, and Brewery Conversions",
-       "href": "/locations/rancho-cucamonga"
+       "href": "/service-areas/rancho-cucamonga"
       },
       {
        "label": "Roof Estimating for Rowland Heights' Colima Road Retail Plazas",
-       "href": "/locations/rowland-heights"
+       "href": "/service-areas/rowland-heights"
       },
       {
        "label": "Highway 60 and Riverfront Commercial Roofing in Rubidoux",
-       "href": "/locations/rubidoux"
+       "href": "/service-areas/rubidoux"
       },
       {
        "label": "Small Commercial Roofing in San Antonio Heights",
-       "href": "/locations/san-antonio-heights"
+       "href": "/service-areas/san-antonio-heights"
       },
       {
        "label": "What an Inspection Report Should Tell an Owner Before the Roof Fails",
@@ -1194,23 +1194,23 @@
      "related": [
       {
        "label": "Roofing Van Buren Boulevard's Commercial Buildings in Pedley",
-       "href": "/locations/pedley"
+       "href": "/service-areas/pedley"
       },
       {
        "label": "Roof Estimates for Fairplex, Pomona's Industrial Core, and the Hospital District",
-       "href": "/locations/pomona"
+       "href": "/service-areas/pomona"
       },
       {
        "label": "Roof Budgets for Rancho Cucamonga's Warehouses, Retail Centers, and Brewery Conversions",
-       "href": "/locations/rancho-cucamonga"
+       "href": "/service-areas/rancho-cucamonga"
       },
       {
        "label": "Roof Estimating for Rowland Heights' Colima Road Retail Plazas",
-       "href": "/locations/rowland-heights"
+       "href": "/service-areas/rowland-heights"
       },
       {
        "label": "Highway 60 and Riverfront Commercial Roofing in Rubidoux",
-       "href": "/locations/rubidoux"
+       "href": "/service-areas/rubidoux"
       },
       {
        "label": "R-Panel: The Workhorse Metal Roof on Ontario's Budget-Driven Buildings",
@@ -1260,23 +1260,23 @@
      "related": [
       {
        "label": "Commercial Roofing Estimates and Replacement in Covina",
-       "href": "/locations/covina"
+       "href": "/service-areas/covina"
       },
       {
        "label": "Commercial Roof Numbers for Diamond Bar's Office and Retail Stock",
-       "href": "/locations/diamond-bar"
+       "href": "/service-areas/diamond-bar"
       },
       {
        "label": "Roofing Numbers for Eastvale's New Mega-Warehouse Construction",
-       "href": "/locations/eastvale"
+       "href": "/service-areas/eastvale"
       },
       {
        "label": "Commercial Roofs Along Temescal Canyon Road in El Cerrito",
-       "href": "/locations/el-cerrito"
+       "href": "/service-areas/el-cerrito"
       },
       {
        "label": "Mission Boulevard Commercial Roofing in Glen Avon",
-       "href": "/locations/glen-avon"
+       "href": "/service-areas/glen-avon"
       },
       {
        "label": "Why TPO Wins Most Bids on Ontario's Warehouse Roofs",
@@ -1326,23 +1326,23 @@
      "related": [
       {
        "label": "Pricing Commercial Roofs Across Claremont's Campus and Village Buildings",
-       "href": "/locations/claremont"
+       "href": "/service-areas/claremont"
       },
       {
        "label": "Budgeting Roof Work for Corona's Manufacturing Plants and 91-Corridor Distribution",
-       "href": "/locations/corona"
+       "href": "/service-areas/corona"
       },
       {
        "label": "Commercial Roofing on Corona's Western Edge in Coronita",
-       "href": "/locations/coronita"
+       "href": "/service-areas/coronita"
       },
       {
        "label": "Commercial Roofing Estimates and Replacement in Covina",
-       "href": "/locations/covina"
+       "href": "/service-areas/covina"
       },
       {
        "label": "Commercial Roof Numbers for Diamond Bar's Office and Retail Stock",
-       "href": "/locations/diamond-bar"
+       "href": "/service-areas/diamond-bar"
       },
       {
        "label": "Full Tear-Off Roof Replacement on Ontario's Biggest Decks",
@@ -1388,23 +1388,23 @@
      "related": [
       {
        "label": "Commercial Roof Contractors for Glendora's Foothill Corridor",
-       "href": "/locations/glendora"
+       "href": "/service-areas/glendora"
       },
       {
        "label": "Commercial Roof Work in the Guasti District",
-       "href": "/locations/guasti"
+       "href": "/service-areas/guasti"
       },
       {
        "label": "Commercial Roof Numbers for Hacienda Heights' 60 Freeway Corridor",
-       "href": "/locations/hacienda-heights"
+       "href": "/service-areas/hacienda-heights"
       },
       {
        "label": "Roofing Contractor for Home Gardens' Magnolia Avenue Corridor",
-       "href": "/locations/home-gardens"
+       "href": "/service-areas/home-gardens"
       },
       {
        "label": "Estimating Roofs for Irwindale's Quarry and Heavy-Industrial Buildings",
-       "href": "/locations/irwindale"
+       "href": "/service-areas/irwindale"
       },
       {
        "label": "Why the Roof Edge Fails Before the Field Ever Does",
@@ -1454,23 +1454,23 @@
      "related": [
       {
        "label": "Roofing Van Buren Boulevard's Commercial Buildings in Pedley",
-       "href": "/locations/pedley"
+       "href": "/service-areas/pedley"
       },
       {
        "label": "Roof Estimates for Fairplex, Pomona's Industrial Core, and the Hospital District",
-       "href": "/locations/pomona"
+       "href": "/service-areas/pomona"
       },
       {
        "label": "Roof Budgets for Rancho Cucamonga's Warehouses, Retail Centers, and Brewery Conversions",
-       "href": "/locations/rancho-cucamonga"
+       "href": "/service-areas/rancho-cucamonga"
       },
       {
        "label": "Roof Estimating for Rowland Heights' Colima Road Retail Plazas",
-       "href": "/locations/rowland-heights"
+       "href": "/service-areas/rowland-heights"
       },
       {
        "label": "Highway 60 and Riverfront Commercial Roofing in Rubidoux",
-       "href": "/locations/rubidoux"
+       "href": "/service-areas/rubidoux"
       },
       {
        "label": "The Drainage Math Most Roof Bids Never Show",
@@ -1520,23 +1520,23 @@
      "related": [
       {
        "label": "Commercial Roof Numbers for Diamond Bar's Office and Retail Stock",
-       "href": "/locations/diamond-bar"
+       "href": "/service-areas/diamond-bar"
       },
       {
        "label": "Roofing Numbers for Eastvale's New Mega-Warehouse Construction",
-       "href": "/locations/eastvale"
+       "href": "/service-areas/eastvale"
       },
       {
        "label": "Commercial Roofs Along Temescal Canyon Road in El Cerrito",
-       "href": "/locations/el-cerrito"
+       "href": "/service-areas/el-cerrito"
       },
       {
        "label": "Mission Boulevard Commercial Roofing in Glen Avon",
-       "href": "/locations/glen-avon"
+       "href": "/service-areas/glen-avon"
       },
       {
        "label": "Commercial Roof Contractors for Glendora's Foothill Corridor",
-       "href": "/locations/glendora"
+       "href": "/service-areas/glendora"
       },
       {
        "label": "What an Inspection Report Should Tell an Owner Before the Roof Fails",
@@ -1582,23 +1582,23 @@
      "related": [
       {
        "label": "Roof Budgets for Rancho Cucamonga's Warehouses, Retail Centers, and Brewery Conversions",
-       "href": "/locations/rancho-cucamonga"
+       "href": "/service-areas/rancho-cucamonga"
       },
       {
        "label": "Roof Estimating for Rowland Heights' Colima Road Retail Plazas",
-       "href": "/locations/rowland-heights"
+       "href": "/service-areas/rowland-heights"
       },
       {
        "label": "Highway 60 and Riverfront Commercial Roofing in Rubidoux",
-       "href": "/locations/rubidoux"
+       "href": "/service-areas/rubidoux"
       },
       {
        "label": "Small Commercial Roofing in San Antonio Heights",
-       "href": "/locations/san-antonio-heights"
+       "href": "/service-areas/san-antonio-heights"
       },
       {
        "label": "Commercial Roofing Along San Dimas Business Parks and Old Town",
-       "href": "/locations/san-dimas"
+       "href": "/service-areas/san-dimas"
       },
       {
        "label": "EPDM Still Makes Sense on Certain Ontario Roofs",
@@ -1648,23 +1648,23 @@
      "related": [
       {
        "label": "Commercial Roofing for Norco's Equestrian and Industrial Buildings",
-       "href": "/locations/norco"
+       "href": "/service-areas/norco"
       },
       {
        "label": "Estimating Roof Work Around ONT's Cargo Ramp and Hotel Corridor",
-       "href": "/locations/ontario-airport-area"
+       "href": "/service-areas/ontario-airport-area"
       },
       {
        "label": "Roof Pricing for Ontario Ranch's New Logistics and Retail Build-Out",
-       "href": "/locations/ontario-ranch"
+       "href": "/service-areas/ontario-ranch"
       },
       {
        "label": "Roofing Van Buren Boulevard's Commercial Buildings in Pedley",
-       "href": "/locations/pedley"
+       "href": "/service-areas/pedley"
       },
       {
        "label": "Roof Estimates for Fairplex, Pomona's Industrial Core, and the Hospital District",
-       "href": "/locations/pomona"
+       "href": "/service-areas/pomona"
       },
       {
        "label": "R-Panel: The Workhorse Metal Roof on Ontario's Budget-Driven Buildings",
@@ -1714,23 +1714,23 @@
      "related": [
       {
        "label": "Commercial Roof Budgets for Chino Hills Retail and Medical Buildings",
-       "href": "/locations/chino-hills"
+       "href": "/service-areas/chino-hills"
       },
       {
        "label": "Pricing Roof Work Across Chino's Logistics Parks, Former Dairy Land, and Airport Hangars",
-       "href": "/locations/chino"
+       "href": "/service-areas/chino"
       },
       {
        "label": "Pricing Roof Work in a City Built Entirely for Industry",
-       "href": "/locations/city-of-industry"
+       "href": "/service-areas/city-of-industry"
       },
       {
        "label": "Pricing Commercial Roofs Across Claremont's Campus and Village Buildings",
-       "href": "/locations/claremont"
+       "href": "/service-areas/claremont"
       },
       {
        "label": "Budgeting Roof Work for Corona's Manufacturing Plants and 91-Corridor Distribution",
-       "href": "/locations/corona"
+       "href": "/service-areas/corona"
       },
       {
        "label": "EPDM Still Makes Sense on Certain Ontario Roofs",
@@ -1780,23 +1780,23 @@
      "related": [
       {
        "label": "Roof Estimates for Fairplex, Pomona's Industrial Core, and the Hospital District",
-       "href": "/locations/pomona"
+       "href": "/service-areas/pomona"
       },
       {
        "label": "Roof Budgets for Rancho Cucamonga's Warehouses, Retail Centers, and Brewery Conversions",
-       "href": "/locations/rancho-cucamonga"
+       "href": "/service-areas/rancho-cucamonga"
       },
       {
        "label": "Roof Estimating for Rowland Heights' Colima Road Retail Plazas",
-       "href": "/locations/rowland-heights"
+       "href": "/service-areas/rowland-heights"
       },
       {
        "label": "Highway 60 and Riverfront Commercial Roofing in Rubidoux",
-       "href": "/locations/rubidoux"
+       "href": "/service-areas/rubidoux"
       },
       {
        "label": "Small Commercial Roofing in San Antonio Heights",
-       "href": "/locations/san-antonio-heights"
+       "href": "/service-areas/san-antonio-heights"
       },
       {
        "label": "Full Tear-Off Roof Replacement on Ontario's Biggest Decks",
@@ -1842,23 +1842,23 @@
      "related": [
       {
        "label": "Roofing Van Buren Boulevard's Commercial Buildings in Pedley",
-       "href": "/locations/pedley"
+       "href": "/service-areas/pedley"
       },
       {
        "label": "Roof Estimates for Fairplex, Pomona's Industrial Core, and the Hospital District",
-       "href": "/locations/pomona"
+       "href": "/service-areas/pomona"
       },
       {
        "label": "Roof Budgets for Rancho Cucamonga's Warehouses, Retail Centers, and Brewery Conversions",
-       "href": "/locations/rancho-cucamonga"
+       "href": "/service-areas/rancho-cucamonga"
       },
       {
        "label": "Roof Estimating for Rowland Heights' Colima Road Retail Plazas",
-       "href": "/locations/rowland-heights"
+       "href": "/service-areas/rowland-heights"
       },
       {
        "label": "Highway 60 and Riverfront Commercial Roofing in Rubidoux",
-       "href": "/locations/rubidoux"
+       "href": "/service-areas/rubidoux"
       },
       {
        "label": "Recover Only Works If the Numbers Underneath Actually Support It",
@@ -1908,23 +1908,23 @@
      "related": [
       {
        "label": "Estimating Roof Work Around Jurupa Valley's Warehouses, Quarries, and Truck Yards",
-       "href": "/locations/jurupa-valley"
+       "href": "/service-areas/jurupa-valley"
       },
       {
        "label": "Commercial Roof Bids for La Puente's Valley Boulevard and Amar Road Buildings",
-       "href": "/locations/la-puente"
+       "href": "/service-areas/la-puente"
       },
       {
        "label": "Commercial Roof Estimates Near the University of La Verne and Brackett Field",
-       "href": "/locations/la-verne"
+       "href": "/service-areas/la-verne"
       },
       {
        "label": "Recover-or-Reroof Math for Mira Loma's Historic Warehouse District",
-       "href": "/locations/mira-loma"
+       "href": "/service-areas/mira-loma"
       },
       {
        "label": "Commercial Roofing Estimates and Service in Montclair, CA",
-       "href": "/locations/montclair"
+       "href": "/service-areas/montclair"
       },
       {
        "label": "R-Panel: The Workhorse Metal Roof on Ontario's Budget-Driven Buildings",
@@ -1974,23 +1974,23 @@
      "related": [
       {
        "label": "Estimating Roof Work Around Jurupa Valley's Warehouses, Quarries, and Truck Yards",
-       "href": "/locations/jurupa-valley"
+       "href": "/service-areas/jurupa-valley"
       },
       {
        "label": "Commercial Roof Bids for La Puente's Valley Boulevard and Amar Road Buildings",
-       "href": "/locations/la-puente"
+       "href": "/service-areas/la-puente"
       },
       {
        "label": "Commercial Roof Estimates Near the University of La Verne and Brackett Field",
-       "href": "/locations/la-verne"
+       "href": "/service-areas/la-verne"
       },
       {
        "label": "Recover-or-Reroof Math for Mira Loma's Historic Warehouse District",
-       "href": "/locations/mira-loma"
+       "href": "/service-areas/mira-loma"
       },
       {
        "label": "Commercial Roofing Estimates and Service in Montclair, CA",
-       "href": "/locations/montclair"
+       "href": "/service-areas/montclair"
       },
       {
        "label": "What to Do With a Building That Still Has a Gravel Roof",
@@ -2040,23 +2040,23 @@
      "related": [
       {
        "label": "Roof Estimating for Brea's Office Parks and Legacy Oil-Field Buildings",
-       "href": "/locations/brea"
+       "href": "/service-areas/brea"
       },
       {
        "label": "Arrow Highway Commercial Roofing in Charter Oak",
-       "href": "/locations/charter-oak"
+       "href": "/service-areas/charter-oak"
       },
       {
        "label": "Commercial Roof Budgets for Chino Hills Retail and Medical Buildings",
-       "href": "/locations/chino-hills"
+       "href": "/service-areas/chino-hills"
       },
       {
        "label": "Pricing Roof Work Across Chino's Logistics Parks, Former Dairy Land, and Airport Hangars",
-       "href": "/locations/chino"
+       "href": "/service-areas/chino"
       },
       {
        "label": "Pricing Roof Work in a City Built Entirely for Industry",
-       "href": "/locations/city-of-industry"
+       "href": "/service-areas/city-of-industry"
       },
       {
        "label": "Modified Bitumen Still Earns a Spot on Heavy-Traffic Roofs",
@@ -2106,23 +2106,23 @@
      "related": [
       {
        "label": "Roof Estimates for Fairplex, Pomona's Industrial Core, and the Hospital District",
-       "href": "/locations/pomona"
+       "href": "/service-areas/pomona"
       },
       {
        "label": "Roof Budgets for Rancho Cucamonga's Warehouses, Retail Centers, and Brewery Conversions",
-       "href": "/locations/rancho-cucamonga"
+       "href": "/service-areas/rancho-cucamonga"
       },
       {
        "label": "Highway 60 and Riverfront Commercial Roofing in Rubidoux",
-       "href": "/locations/rubidoux"
+       "href": "/service-areas/rubidoux"
       },
       {
        "label": "Small Commercial Roofing in San Antonio Heights",
-       "href": "/locations/san-antonio-heights"
+       "href": "/service-areas/san-antonio-heights"
       },
       {
        "label": "Commercial Roofing Along San Dimas Business Parks and Old Town",
-       "href": "/locations/san-dimas"
+       "href": "/service-areas/san-dimas"
       },
       {
        "label": "Reading Wind Damage on a Roof Before the Repair Estimate Is Written",
@@ -2172,23 +2172,23 @@
      "related": [
       {
        "label": "Roofing Numbers for Eastvale's New Mega-Warehouse Construction",
-       "href": "/locations/eastvale"
+       "href": "/service-areas/eastvale"
       },
       {
        "label": "Commercial Roofs Along Temescal Canyon Road in El Cerrito",
-       "href": "/locations/el-cerrito"
+       "href": "/service-areas/el-cerrito"
       },
       {
        "label": "Mission Boulevard Commercial Roofing in Glen Avon",
-       "href": "/locations/glen-avon"
+       "href": "/service-areas/glen-avon"
       },
       {
        "label": "Commercial Roof Contractors for Glendora's Foothill Corridor",
-       "href": "/locations/glendora"
+       "href": "/service-areas/glendora"
       },
       {
        "label": "Commercial Roof Work in the Guasti District",
-       "href": "/locations/guasti"
+       "href": "/service-areas/guasti"
       },
       {
        "label": "Reading Wind Damage on a Roof Before the Repair Estimate Is Written",
@@ -2238,23 +2238,23 @@
      "related": [
       {
        "label": "Pricing Roof Work in a City Built Entirely for Industry",
-       "href": "/locations/city-of-industry"
+       "href": "/service-areas/city-of-industry"
       },
       {
        "label": "Pricing Commercial Roofs Across Claremont's Campus and Village Buildings",
-       "href": "/locations/claremont"
+       "href": "/service-areas/claremont"
       },
       {
        "label": "Budgeting Roof Work for Corona's Manufacturing Plants and 91-Corridor Distribution",
-       "href": "/locations/corona"
+       "href": "/service-areas/corona"
       },
       {
        "label": "Commercial Roofing on Corona's Western Edge in Coronita",
-       "href": "/locations/coronita"
+       "href": "/service-areas/coronita"
       },
       {
        "label": "Commercial Roofing Estimates and Replacement in Covina",
-       "href": "/locations/covina"
+       "href": "/service-areas/covina"
       },
       {
        "label": "R-Panel: The Workhorse Metal Roof on Ontario's Budget-Driven Buildings",
@@ -2304,23 +2304,23 @@
      "related": [
       {
        "label": "Commercial Roofing Estimates and Service in Montclair, CA",
-       "href": "/locations/montclair"
+       "href": "/service-areas/montclair"
       },
       {
        "label": "Commercial Roofing for Norco's Equestrian and Industrial Buildings",
-       "href": "/locations/norco"
+       "href": "/service-areas/norco"
       },
       {
        "label": "Estimating Roof Work Around ONT's Cargo Ramp and Hotel Corridor",
-       "href": "/locations/ontario-airport-area"
+       "href": "/service-areas/ontario-airport-area"
       },
       {
        "label": "Roof Pricing for Ontario Ranch's New Logistics and Retail Build-Out",
-       "href": "/locations/ontario-ranch"
+       "href": "/service-areas/ontario-ranch"
       },
       {
        "label": "Roofing Van Buren Boulevard's Commercial Buildings in Pedley",
-       "href": "/locations/pedley"
+       "href": "/service-areas/pedley"
       },
       {
        "label": "Full Tear-Off Roof Replacement on Ontario's Biggest Decks",
@@ -2366,23 +2366,23 @@
      "related": [
       {
        "label": "Roof Estimates for Azusa's Canyon-Edge Industrial and Campus Buildings",
-       "href": "/locations/azusa"
+       "href": "/service-areas/azusa"
       },
       {
        "label": "Roof Replacement Numbers for Baldwin Park's I-10 Industrial Corridor",
-       "href": "/locations/baldwin-park"
+       "href": "/service-areas/baldwin-park"
       },
       {
        "label": "Roof Estimating for Brea's Office Parks and Legacy Oil-Field Buildings",
-       "href": "/locations/brea"
+       "href": "/service-areas/brea"
       },
       {
        "label": "Arrow Highway Commercial Roofing in Charter Oak",
-       "href": "/locations/charter-oak"
+       "href": "/service-areas/charter-oak"
       },
       {
        "label": "Commercial Roof Budgets for Chino Hills Retail and Medical Buildings",
-       "href": "/locations/chino-hills"
+       "href": "/service-areas/chino-hills"
       },
       {
        "label": "Why the Roof Edge Fails Before the Field Ever Does",
@@ -2432,23 +2432,23 @@
      "related": [
       {
        "label": "Pricing Roof Work in a City Built Entirely for Industry",
-       "href": "/locations/city-of-industry"
+       "href": "/service-areas/city-of-industry"
       },
       {
        "label": "Pricing Commercial Roofs Across Claremont's Campus and Village Buildings",
-       "href": "/locations/claremont"
+       "href": "/service-areas/claremont"
       },
       {
        "label": "Budgeting Roof Work for Corona's Manufacturing Plants and 91-Corridor Distribution",
-       "href": "/locations/corona"
+       "href": "/service-areas/corona"
       },
       {
        "label": "Commercial Roofing on Corona's Western Edge in Coronita",
-       "href": "/locations/coronita"
+       "href": "/service-areas/coronita"
       },
       {
        "label": "Commercial Roofing Estimates and Replacement in Covina",
-       "href": "/locations/covina"
+       "href": "/service-areas/covina"
       },
       {
        "label": "What to Do With a Building That Still Has a Gravel Roof",
@@ -2498,23 +2498,23 @@
      "related": [
       {
        "label": "Roof Estimates for Fairplex, Pomona's Industrial Core, and the Hospital District",
-       "href": "/locations/pomona"
+       "href": "/service-areas/pomona"
       },
       {
        "label": "Roof Budgets for Rancho Cucamonga's Warehouses, Retail Centers, and Brewery Conversions",
-       "href": "/locations/rancho-cucamonga"
+       "href": "/service-areas/rancho-cucamonga"
       },
       {
        "label": "Roof Estimating for Rowland Heights' Colima Road Retail Plazas",
-       "href": "/locations/rowland-heights"
+       "href": "/service-areas/rowland-heights"
       },
       {
        "label": "Highway 60 and Riverfront Commercial Roofing in Rubidoux",
-       "href": "/locations/rubidoux"
+       "href": "/service-areas/rubidoux"
       },
       {
        "label": "Small Commercial Roofing in San Antonio Heights",
-       "href": "/locations/san-antonio-heights"
+       "href": "/service-areas/san-antonio-heights"
       },
       {
        "label": "Why TPO Wins Most Bids on Ontario's Warehouse Roofs",
@@ -2564,23 +2564,23 @@
      "related": [
       {
        "label": "Commercial Roof Numbers for Diamond Bar's Office and Retail Stock",
-       "href": "/locations/diamond-bar"
+       "href": "/service-areas/diamond-bar"
       },
       {
        "label": "Roofing Numbers for Eastvale's New Mega-Warehouse Construction",
-       "href": "/locations/eastvale"
+       "href": "/service-areas/eastvale"
       },
       {
        "label": "Commercial Roofs Along Temescal Canyon Road in El Cerrito",
-       "href": "/locations/el-cerrito"
+       "href": "/service-areas/el-cerrito"
       },
       {
        "label": "Mission Boulevard Commercial Roofing in Glen Avon",
-       "href": "/locations/glen-avon"
+       "href": "/service-areas/glen-avon"
       },
       {
        "label": "Commercial Roof Contractors for Glendora's Foothill Corridor",
-       "href": "/locations/glendora"
+       "href": "/service-areas/glendora"
       },
       {
        "label": "Acrylic Coating: The Budget Line When There's No Ponding to Fight",
@@ -2626,23 +2626,23 @@
      "related": [
       {
        "label": "Roofing Numbers for Eastvale's New Mega-Warehouse Construction",
-       "href": "/locations/eastvale"
+       "href": "/service-areas/eastvale"
       },
       {
        "label": "Commercial Roofs Along Temescal Canyon Road in El Cerrito",
-       "href": "/locations/el-cerrito"
+       "href": "/service-areas/el-cerrito"
       },
       {
        "label": "Mission Boulevard Commercial Roofing in Glen Avon",
-       "href": "/locations/glen-avon"
+       "href": "/service-areas/glen-avon"
       },
       {
        "label": "Commercial Roof Contractors for Glendora's Foothill Corridor",
-       "href": "/locations/glendora"
+       "href": "/service-areas/glendora"
       },
       {
        "label": "Commercial Roof Work in the Guasti District",
-       "href": "/locations/guasti"
+       "href": "/service-areas/guasti"
       },
       {
        "label": "Modified Bitumen Still Earns a Spot on Heavy-Traffic Roofs",
@@ -2718,7 +2718,7 @@
       },
       {
        "label": "Roof Replacement Numbers for Baldwin Park's I-10 Industrial Corridor",
-       "href": "/locations/baldwin-park"
+       "href": "/service-areas/baldwin-park"
       },
       {
        "label": "Roofing Flex Buildings When Three Tenants Share One Membrane",
@@ -2780,7 +2780,7 @@
       },
       {
        "label": "Budgeting Roof Work for Corona's Manufacturing Plants and 91-Corridor Distribution",
-       "href": "/locations/corona"
+       "href": "/service-areas/corona"
       },
       {
        "label": "Matching an OEM Image Program on a Dealership Re-Roof",
@@ -2834,7 +2834,7 @@
       },
       {
        "label": "Commercial Roofing for Walnut's Campus and Business Park Buildings",
-       "href": "/locations/walnut"
+       "href": "/service-areas/walnut"
       },
       {
        "label": "A Strip Center Roof Carries More Penetrations Per Square Foot Than Anything Else We Bid",
@@ -2892,7 +2892,7 @@
       },
       {
        "label": "Commercial Roofing Estimates and Replacement in Covina",
-       "href": "/locations/covina"
+       "href": "/service-areas/covina"
       },
       {
        "label": "Pricing a Cold Storage Roof Without Getting Burned by Condensation",
@@ -2954,7 +2954,7 @@
       },
       {
        "label": "Roof Estimating for Brea's Office Parks and Legacy Oil-Field Buildings",
-       "href": "/locations/brea"
+       "href": "/service-areas/brea"
       },
       {
        "label": "Roofing a Building With No Interior Columns for 200 Feet",
@@ -3012,7 +3012,7 @@
       },
       {
        "label": "Roof Estimating for Rowland Heights' Colima Road Retail Plazas",
-       "href": "/locations/rowland-heights"
+       "href": "/service-areas/rowland-heights"
       },
       {
        "label": "Ten Buildings, One Storm, and a Liability Question on Every Unit",
@@ -3074,7 +3074,7 @@
       },
       {
        "label": "Roof Replacement Numbers for Baldwin Park's I-10 Industrial Corridor",
-       "href": "/locations/baldwin-park"
+       "href": "/service-areas/baldwin-park"
       },
       {
        "label": "Ten Buildings, One Storm, and a Liability Question on Every Unit",
@@ -3140,7 +3140,7 @@
       },
       {
        "label": "Commercial Roof Bids for La Puente's Valley Boulevard and Amar Road Buildings",
-       "href": "/locations/la-puente"
+       "href": "/service-areas/la-puente"
       },
       {
        "label": "A Strip Center Roof Carries More Penetrations Per Square Foot Than Anything Else We Bid",
@@ -3214,7 +3214,7 @@
       },
       {
        "label": "Commercial Roofing in Guasti, CA",
-       "href": "/locations/guasti"
+       "href": "/service-areas/guasti"
       },
       {
        "label": "Commercial Roof Repair",
@@ -3276,7 +3276,7 @@
       },
       {
        "label": "Commercial Roofing in Guasti, CA",
-       "href": "/locations/guasti"
+       "href": "/service-areas/guasti"
       },
       {
        "label": "Commercial Roof Repair",
@@ -3334,7 +3334,7 @@
       },
       {
        "label": "Roof Pricing for Ontario Ranch's New Logistics and Retail Build-Out",
-       "href": "/locations/ontario-ranch"
+       "href": "/service-areas/ontario-ranch"
       },
       {
        "label": "Ten Buildings, One Storm, and a Liability Question on Every Unit",
@@ -3384,7 +3384,7 @@
       },
       {
        "label": "Roofing Van Buren Boulevard's Commercial Buildings in Pedley",
-       "href": "/locations/pedley"
+       "href": "/service-areas/pedley"
       },
       {
        "label": "Pricing a Cold Storage Roof Without Getting Burned by Condensation",
@@ -3438,7 +3438,7 @@
       },
       {
        "label": "Roof Budgets for Rancho Cucamonga's Warehouses, Retail Centers, and Brewery Conversions",
-       "href": "/locations/rancho-cucamonga"
+       "href": "/service-areas/rancho-cucamonga"
       },
       {
        "label": "Matching an OEM Image Program on a Dealership Re-Roof",
@@ -3496,7 +3496,7 @@
       },
       {
        "label": "Commercial Roof Numbers for Hacienda Heights' 60 Freeway Corridor",
-       "href": "/locations/hacienda-heights"
+       "href": "/service-areas/hacienda-heights"
       },
       {
        "label": "Ten Buildings, One Storm, and a Liability Question on Every Unit",
@@ -3558,7 +3558,7 @@
       },
       {
        "label": "Estimating Roof Work Around ONT's Cargo Ramp and Hotel Corridor",
-       "href": "/locations/ontario-airport-area"
+       "href": "/service-areas/ontario-airport-area"
       },
       {
        "label": "A Strip Center Roof Carries More Penetrations Per Square Foot Than Anything Else We Bid",
@@ -3620,7 +3620,7 @@
       },
       {
        "label": "Roof Estimating for Brea's Office Parks and Legacy Oil-Field Buildings",
-       "href": "/locations/brea"
+       "href": "/service-areas/brea"
       },
       {
        "label": "Ten Buildings, One Storm, and a Liability Question on Every Unit",
@@ -3678,7 +3678,7 @@
       },
       {
        "label": "Roof Replacement Numbers for Baldwin Park's I-10 Industrial Corridor",
-       "href": "/locations/baldwin-park"
+       "href": "/service-areas/baldwin-park"
       },
       {
        "label": "Re-Roofing an Anchor Store Without Closing It for a Single Day",
@@ -3732,7 +3732,7 @@
       },
       {
        "label": "Arrow Highway Commercial Roofing in Charter Oak",
-       "href": "/locations/charter-oak"
+       "href": "/service-areas/charter-oak"
       },
       {
        "label": "Manufacturing Roofs Carry Loads a Warehouse Roof Never Sees",
@@ -3790,7 +3790,7 @@
       },
       {
        "label": "Commercial Roof Estimates Near the University of La Verne and Brackett Field",
-       "href": "/locations/la-verne"
+       "href": "/service-areas/la-verne"
       },
       {
        "label": "Manufacturing Roofs Carry Loads a Warehouse Roof Never Sees",
@@ -3852,7 +3852,7 @@
       },
       {
        "label": "Commercial Roof Estimates Near the University of La Verne and Brackett Field",
-       "href": "/locations/la-verne"
+       "href": "/service-areas/la-verne"
       },
       {
        "label": "Pricing a Cold Storage Roof Without Getting Burned by Condensation",
@@ -3914,7 +3914,7 @@
       },
       {
        "label": "Small Commercial Roofing in San Antonio Heights",
-       "href": "/locations/san-antonio-heights"
+       "href": "/service-areas/san-antonio-heights"
       },
       {
        "label": "A Strip Center Roof Carries More Penetrations Per Square Foot Than Anything Else We Bid",
@@ -3984,7 +3984,7 @@
       },
       {
        "label": "Mission Boulevard Commercial Roofing in Glen Avon",
-       "href": "/locations/glen-avon"
+       "href": "/service-areas/glen-avon"
       },
       {
        "label": "Matching an OEM Image Program on a Dealership Re-Roof",
@@ -4056,7 +4056,7 @@
       },
       {
        "label": "Commercial Roof Contractors for Glendora's Foothill Corridor",
-       "href": "/locations/glendora"
+       "href": "/service-areas/glendora"
       },
       {
        "label": "The Roof Above a Working Office Floor Has a Different Failure Cost",
@@ -4122,7 +4122,7 @@
       },
       {
        "label": "Roofing Contractor for Home Gardens' Magnolia Avenue Corridor",
-       "href": "/locations/home-gardens"
+       "href": "/service-areas/home-gardens"
       },
       {
        "label": "Re-Roofing an Anchor Store Without Closing It for a Single Day",
@@ -4184,7 +4184,7 @@
       },
       {
        "label": "Roof Estimates for Azusa's Canyon-Edge Industrial and Campus Buildings",
-       "href": "/locations/azusa"
+       "href": "/service-areas/azusa"
       },
       {
        "label": "Re-Roofing an Anchor Store Without Closing It for a Single Day",
@@ -4250,7 +4250,7 @@
       },
       {
        "label": "Pricing Roof Work in a City Built Entirely for Industry",
-       "href": "/locations/city-of-industry"
+       "href": "/service-areas/city-of-industry"
       },
       {
        "label": "Roofing Flex Buildings When Three Tenants Share One Membrane",
@@ -4312,7 +4312,7 @@
       },
       {
        "label": "Commercial Roof Work in the Guasti District",
-       "href": "/locations/guasti"
+       "href": "/service-areas/guasti"
       },
       {
        "label": "The Roof Above a Working Office Floor Has a Different Failure Cost",
@@ -4378,7 +4378,7 @@
       },
       {
        "label": "Roof Estimates for Azusa's Canyon-Edge Industrial and Campus Buildings",
-       "href": "/locations/azusa"
+       "href": "/service-areas/azusa"
       },
       {
        "label": "Matching an OEM Image Program on a Dealership Re-Roof",
@@ -4440,7 +4440,7 @@
       },
       {
        "label": "Budgeting Roof Work for Corona's Manufacturing Plants and 91-Corridor Distribution",
-       "href": "/locations/corona"
+       "href": "/service-areas/corona"
       },
       {
        "label": "Manufacturing Roofs Carry Loads a Warehouse Roof Never Sees",
@@ -4506,7 +4506,7 @@
       },
       {
        "label": "Recover-or-Reroof Math for Mira Loma's Historic Warehouse District",
-       "href": "/locations/mira-loma"
+       "href": "/service-areas/mira-loma"
       },
       {
        "label": "Pricing a Cold Storage Roof Without Getting Burned by Condensation",
@@ -4574,7 +4574,7 @@
       },
       {
        "label": "Roof Replacement Numbers for Baldwin Park's I-10 Industrial Corridor",
-       "href": "/locations/baldwin-park"
+       "href": "/service-areas/baldwin-park"
       },
       {
        "label": "Pricing a Cold Storage Roof Without Getting Burned by Condensation",
@@ -4636,7 +4636,7 @@
       },
       {
        "label": "Commercial Roofs Along Temescal Canyon Road in El Cerrito",
-       "href": "/locations/el-cerrito"
+       "href": "/service-areas/el-cerrito"
       },
       {
        "label": "Matching an OEM Image Program on a Dealership Re-Roof",
@@ -4702,7 +4702,7 @@
       },
       {
        "label": "Recover-or-Reroof Math for Mira Loma's Historic Warehouse District",
-       "href": "/locations/mira-loma"
+       "href": "/service-areas/mira-loma"
       },
       {
        "label": "A Strip Center Roof Carries More Penetrations Per Square Foot Than Anything Else We Bid",
@@ -4768,7 +4768,7 @@
       },
       {
        "label": "Roof Replacement Numbers for Baldwin Park's I-10 Industrial Corridor",
-       "href": "/locations/baldwin-park"
+       "href": "/service-areas/baldwin-park"
       },
       {
        "label": "Warehouse Roofing Budgets That Hold Up in Ontario",
@@ -4830,7 +4830,7 @@
       },
       {
        "label": "Commercial Roofs Along Temescal Canyon Road in El Cerrito",
-       "href": "/locations/el-cerrito"
+       "href": "/service-areas/el-cerrito"
       },
       {
        "label": "A Strip Center Roof Carries More Penetrations Per Square Foot Than Anything Else We Bid",
@@ -4892,7 +4892,7 @@
       },
       {
        "label": "Commercial Roof Estimates Near the University of La Verne and Brackett Field",
-       "href": "/locations/la-verne"
+       "href": "/service-areas/la-verne"
       },
       {
        "label": "Re-Roofing an Anchor Store Without Closing It for a Single Day",
@@ -4954,7 +4954,7 @@
       },
       {
        "label": "Commercial Roof Budgets for Chino Hills Retail and Medical Buildings",
-       "href": "/locations/chino-hills"
+       "href": "/service-areas/chino-hills"
       },
       {
        "label": "Re-Roofing a Hotel While Rooms Below Stay Booked",
@@ -5020,7 +5020,7 @@
       },
       {
        "label": "Mission Boulevard Commercial Roofing in Glen Avon",
-       "href": "/locations/glen-avon"
+       "href": "/service-areas/glen-avon"
       },
       {
        "label": "Ten Buildings, One Storm, and a Liability Question on Every Unit",
@@ -5092,7 +5092,7 @@
       },
       {
        "label": "Pricing Commercial Roofs Across Claremont's Campus and Village Buildings",
-       "href": "/locations/claremont"
+       "href": "/service-areas/claremont"
       },
       {
        "label": "Commercial Roofing for Logistics and 3PL Operators in Ontario",
@@ -5138,7 +5138,7 @@
       },
       {
        "label": "Highway 60 and Riverfront Commercial Roofing in Rubidoux",
-       "href": "/locations/rubidoux"
+       "href": "/service-areas/rubidoux"
       },
       {
        "label": "Roofing Partner for CRE Portfolios and REITs Holding Inland Empire Assets",
@@ -5184,7 +5184,7 @@
       },
       {
        "label": "Commercial Roof Estimates Near the University of La Verne and Brackett Field",
-       "href": "/locations/la-verne"
+       "href": "/service-areas/la-verne"
       },
       {
        "label": "Commercial Roofing for Logistics and 3PL Operators in Ontario",
@@ -5230,7 +5230,7 @@
       },
       {
        "label": "Commercial Roofing Contractors Serving Upland, CA",
-       "href": "/locations/upland"
+       "href": "/service-areas/upland"
       },
       {
        "label": "Keeping Production Dry: Roofing for Manufacturing Plants in the Inland Empire",
@@ -5276,7 +5276,7 @@
       },
       {
        "label": "Commercial Roof Bids for La Puente's Valley Boulevard and Amar Road Buildings",
-       "href": "/locations/la-puente"
+       "href": "/service-areas/la-puente"
       },
       {
        "label": "Keeping Production Dry: Roofing for Manufacturing Plants in the Inland Empire",
@@ -5322,7 +5322,7 @@
       },
       {
        "label": "Roof Estimating for Rowland Heights' Colima Road Retail Plazas",
-       "href": "/locations/rowland-heights"
+       "href": "/service-areas/rowland-heights"
       },
       {
        "label": "Roofing Subcontractor Support for GCs Building in the Inland Empire",
@@ -5368,7 +5368,7 @@
       },
       {
        "label": "Commercial Roofing for Walnut's Campus and Business Park Buildings",
-       "href": "/locations/walnut"
+       "href": "/service-areas/walnut"
       },
       {
        "label": "Roofing Subcontractor Support for GCs Building in the Inland Empire",
@@ -5414,7 +5414,7 @@
       },
       {
        "label": "Roof Estimates for Fairplex, Pomona's Industrial Core, and the Hospital District",
-       "href": "/locations/pomona"
+       "href": "/service-areas/pomona"
       },
       {
        "label": "Commercial Roofing for Logistics and 3PL Operators in Ontario",
@@ -5460,7 +5460,7 @@
       },
       {
        "label": "Commercial Roofing Estimates and Replacement in Covina",
-       "href": "/locations/covina"
+       "href": "/service-areas/covina"
       },
       {
        "label": "Roofing for Hotels Near Ontario International Airport and the Convention Center",
@@ -5506,7 +5506,7 @@
       },
       {
        "label": "Commercial Roofs Along Temescal Canyon Road in El Cerrito",
-       "href": "/locations/el-cerrito"
+       "href": "/service-areas/el-cerrito"
       },
       {
        "label": "Roof Vendor Support for Property Managers Running Multi-Building Portfolios",
@@ -5552,7 +5552,7 @@
       },
       {
        "label": "Small Commercial Roofing in San Antonio Heights",
-       "href": "/locations/san-antonio-heights"
+       "href": "/service-areas/san-antonio-heights"
       },
       {
        "label": "Storm Damage Documentation and Insurance Restoration Roofing in Ontario, CA",
@@ -5598,7 +5598,7 @@
       },
       {
        "label": "Commercial Roof Estimates for West Covina's Retail Corridors",
-       "href": "/locations/west-covina"
+       "href": "/service-areas/west-covina"
       },
       {
        "label": "Keeping Production Dry: Roofing for Manufacturing Plants in the Inland Empire",
@@ -5650,7 +5650,7 @@
       },
       {
        "label": "Mission Boulevard Commercial Roofing in Glen Avon",
-       "href": "/locations/glen-avon"
+       "href": "/service-areas/glen-avon"
       },
       {
        "label": "Re-Roofing an Anchor Store Without Closing It for a Single Day",
@@ -5696,7 +5696,7 @@
       },
       {
        "label": "Commercial Roofing Contractors Serving Upland, CA",
-       "href": "/locations/upland"
+       "href": "/service-areas/upland"
       },
       {
        "label": "Manufacturing Roofs Carry Loads a Warehouse Roof Never Sees",
@@ -5742,7 +5742,7 @@
       },
       {
        "label": "Roof Estimates for Azusa's Canyon-Edge Industrial and Campus Buildings",
-       "href": "/locations/azusa"
+       "href": "/service-areas/azusa"
       },
       {
        "label": "Matching an OEM Image Program on a Dealership Re-Roof",
@@ -5788,7 +5788,7 @@
       },
       {
        "label": "Commercial Roof Estimates Near the University of La Verne and Brackett Field",
-       "href": "/locations/la-verne"
+       "href": "/service-areas/la-verne"
       },
       {
        "label": "Manufacturing Roofs Carry Loads a Warehouse Roof Never Sees",
@@ -5834,7 +5834,7 @@
       },
       {
        "label": "Roofing Numbers for Eastvale's New Mega-Warehouse Construction",
-       "href": "/locations/eastvale"
+       "href": "/service-areas/eastvale"
       },
       {
        "label": "Pricing a Cold Storage Roof Without Getting Burned by Condensation",
@@ -5880,7 +5880,7 @@
       },
       {
        "label": "Roof Pricing for Ontario Ranch's New Logistics and Retail Build-Out",
-       "href": "/locations/ontario-ranch"
+       "href": "/service-areas/ontario-ranch"
       },
       {
        "label": "Roofing Flex Buildings When Three Tenants Share One Membrane",

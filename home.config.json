@@ -11,7 +11,7 @@
   "email": "repairs@commercialroofersontario.com",
   "address": "3281 E Guasti Rd, Suite 700, Ontario, CA 91761",
   "vertical": "commercial-roofing",
-  "hero_image": "/ours/locations/commercial-roofers-ontario-ca-01.webp",
+  "hero_image": "/ours/service-areas/commercial-roofers-ontario-ca-01.webp",
   "brand_logo": "/images/brand/logo-on-light.png",
   "wordmark_l1": "Commercial Roofers",
   "wordmark_l2": "of Ontario",
@@ -34,7 +34,7 @@
     ],
     [
       "Service Areas",
-      "/locations"
+      "/service-areas"
     ],
     [
       "Contact",
