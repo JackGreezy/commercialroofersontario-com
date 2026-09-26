@@ -1,0 +1,84 @@
+{
+  "domain": "commercialroofersontario.com",
+  "images": {
+    "/images/brand/logo-on-light.png": {
+      "width": 962,
+      "height": 272,
+      "variants": [
+        {
+          "src": "/performance/fleet-images/956af17bb4724dfd.webp",
+          "width": 400
+        },
+        {
+          "src": "/performance/fleet-images/01d58f6a03e5f6da.webp",
+          "width": 828
+        },
+        {
+          "src": "/performance/fleet-images/5f1685654717b639.webp",
+          "width": 962
+        }
+      ],
+      "mobileSize": "188px"
+    },
+    "/ours/services/commercial-roof-leak-repair-commercial-roofers-ontario-ca.webp": {
+      "width": 1683,
+      "height": 1262,
+      "variants": [
+        {
+          "src": "/performance/fleet-images/9c29c664c56fb38c.webp",
+          "width": 400
+        },
+        {
+          "src": "/performance/fleet-images/cf175d21c9a88cb3.webp",
+          "width": 828
+        },
+        {
+          "src": "/performance/fleet-images/18283e30d6842da5.webp",
+          "width": 1240
+        }
+      ]
+    },
+    "/ours/services/commercial-roof-inspection-commercial-roofers-ontario-ca.webp": {
+      "width": 1600,
+      "height": 1067,
+      "variants": [
+        {
+          "src": "/performance/fleet-images/a355d0865474945e.webp",
+          "width": 400
+        },
+        {
+          "src": "/performance/fleet-images/1ae0a97ca64d1b20.webp",
+          "width": 828
+        },
+        {
+          "src": "/performance/fleet-images/4fdce7d0c928d10c.webp",
+          "width": 1240
+        }
+      ]
+    },
+    "/ours/services/preventive-maintenance-programs-commercial-roofers-ontario-ca.webp": {
+      "width": 1920,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/performance/fleet-images/fc09ac1fd1d972ca.webp",
+          "width": 400
+        },
+        {
+          "src": "/performance/fleet-images/ecd4e9617bb477e2.webp",
+          "width": 828
+        },
+        {
+          "src": "/performance/fleet-images/4cd4fb43b262bccc.webp",
+          "width": 1240
+        }
+      ]
+    }
+  },
+  "lazyImages": [
+    "/ours/services/commercial-roof-leak-repair-commercial-roofers-ontario-ca.webp",
+    "/ours/services/commercial-roof-inspection-commercial-roofers-ontario-ca.webp",
+    "/ours/services/preventive-maintenance-programs-commercial-roofers-ontario-ca.webp"
+  ],
+  "lazyBackgrounds": []
+}
