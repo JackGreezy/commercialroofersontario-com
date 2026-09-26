@@ -281,3 +281,25 @@ html, body { overflow-x: hidden; }
   .ontario-contact-card form { grid-template-columns: 1fr; }
   .ontario-contact-card label.full, .ontario-contact-card button, .ontario-contact-card .ontario-form-status { grid-column: auto; }
 }
+
+/* rr-ontario-kicker-contrast-repair:start */
+/* .ontario-kicker defaults to a pale dusty-rose (#d6a18d) that only reads
+   against the dark navy hero it was designed for (~6.4:1 there). Every other
+   section that reuses the class sits on a light cream/sand/white background
+   (measured ~1.8-2.3:1), so match the kicker to the same dark ink already
+   used for the h2 right below it in those sections. The lead section sits on
+   the rust background instead, so match its kicker to the white already used
+   for that section's own heading and body copy. */
+.ontario-story-copy .ontario-kicker,
+.ontario-section-head .ontario-kicker {
+  color: var(--ont-midnight);
+}
+
+.ontario-market .ontario-section-head .ontario-kicker {
+  color: #d6a18d;
+}
+
+.ontario-lead .ontario-kicker {
+  color: #fff;
+}
+/* rr-ontario-kicker-contrast-repair:end */
