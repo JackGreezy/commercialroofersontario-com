@@ -4,7 +4,8 @@
     "/assets-f/js/52e0f869dc9c00.js"
   ],
   "scriptRemaps": {
-    "/assets-f/js/8bb31142788386.js": "/performance/runtime/bc4b19aa0a537142.js"
+    "/assets-f/js/8bb31142788386.js": "/performance/runtime/e22c534f89761bb4.js",
+    "/performance/runtime/bc4b19aa0a537142.js": "/performance/runtime/e22c534f89761bb4.js"
   },
   "replacements": []
 }
