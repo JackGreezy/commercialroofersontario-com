@@ -165,6 +165,21 @@ def canonical_for_route(route: str) -> str:
 def strip_tags(s: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", clean(s))).strip()
 
+def fit_desc(text: str, limit: int = 158) -> str:
+    """Trim a meta description at a sentence or clause boundary so it never ends mid-word."""
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) <= limit:
+        return text if text[-1:] in ".!?" else text.rstrip(" ,;:") + "."
+    cut = text[:limit]
+    ends = list(re.finditer(r"[.!?](?=\s)", cut))
+    if ends and ends[-1].end() >= 90:
+        return cut[:ends[-1].end()]
+    idx = max(cut.rfind(", "), cut.rfind("; "), cut.rfind(": "), cut.rfind(" \u2014 "))
+    if idx >= 90:
+        return cut[:idx].rstrip(" ,;:\u2014") + "."
+    return cut[:cut.rfind(" ")].rstrip(" ,;:\u2014-") + "."
+
+
 def meta_for(route: str, soup: BeautifulSoup | None = None) -> tuple[str, str]:
     city = BIZ["city"] or "your market"
     region = BIZ["region"] or f"{city} commercial properties"
@@ -189,7 +204,7 @@ def meta_for(route: str, soup: BeautifulSoup | None = None) -> tuple[str, str]:
         desc = info.get("meta") or f"{info['name']} from {name} for commercial roofing properties across {region}."
         suffix = TAX_TITLE_SUFFIX.get(info.get("tax", ""), "Commercial Roofing")
         # info["name"] already names the topic and place; appending the taxonomy label and city again produced duplicated filler titles.
-        return f"{info['name']} | {name}", desc[:155].rstrip(" ,.;")
+        return f"{info['name']} | {name}", fit_desc(desc, 155)
     h1 = strip_tags(str(soup.find("h1"))) if soup and soup.find("h1") else ""
     label = h1 or route.strip("/").replace("-", " ").title()
     return f"{label} | {name}", f"{name} provides commercial roofing guidance for {label.lower()} across {region}."
@@ -244,7 +259,7 @@ def upsert_meta(soup: BeautifulSoup, attr: str, key: str, content: str):
 def set_metadata(soup: BeautifulSoup, route: str):
     soup = ensure_head(soup)
     title, desc = meta_for(route, soup)
-    desc = re.sub(r"\s+", " ", desc).strip()[:158].rstrip(" ,.;")
+    desc = fit_desc(desc, 158)
     if soup.title:
         soup.title.string = title
     else:
