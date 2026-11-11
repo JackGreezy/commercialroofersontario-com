@@ -14,7 +14,8 @@ CAP=$ROOT/David/clones/_captures/$REFHOST
 [ -f "$MAP" ] || { echo "MISSING $MAP"; exit 1; }
 [ -f "$CAP/public/home.html.ref" ] || node "$S/faithful-home.mjs" --src "https://www.hoffmancorp.com/" --pages "$PAGES" --dir "$CAP"
 mkdir -p "$PROJ/public"
-cp "$CAP"/public/*.html.ref "$PROJ/public/" 2>/dev/null || true
+# DMCA: raw captures are not copied into public/ (served dir)
+# cp "$CAP"/public/*.html.ref "$PROJ/public/" 2>/dev/null || true
 [ -d "$PROJ/public/assets-f" ] || cp -R "$CAP/public/assets-f" "$PROJ/public/"
 mkdir -p "$PROJ/qa-out"
 cp "$CAP"/qa-out/ref-*.png "$PROJ/qa-out/" 2>/dev/null || true
