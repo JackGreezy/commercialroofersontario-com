@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm run build",
+  "buildCommand": "node scripts/install-roofing-growth.mjs && npm run build && node scripts/install-roofing-growth.mjs",
   "outputDirectory": "public",
   "routes": [
     {
