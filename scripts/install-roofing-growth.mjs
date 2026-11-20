@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { execFileSync } from 'node:child_process';
 
 const root = process.cwd();
 const growthUrl = '/rankhound-conversion-events.js?v=' + crypto.createHash('sha256').update(fs.readFileSync(path.join(root, 'public/rankhound-conversion-events.js'))).digest('hex').slice(0, 12);
@@ -46,6 +47,7 @@ function walk(dir) {
   }
 }
 walk(path.join(root, 'public'));
+execFileSync(process.execPath, [path.join(root, 'scripts/ensure-roofing-home-locality.mjs')], { cwd: root, stdio: 'inherit' });
 for (const relative of ['app/lib/sitePage.tsx', 'app/ContactHydrator.tsx', 'app/site-renderer.jsx']) {
   const file = path.join(root, relative);
   if (!fs.existsSync(file)) continue;
