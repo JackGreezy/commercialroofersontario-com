@@ -1318,12 +1318,29 @@
       "status": 404
     },
     {
+      "src": "^/api(/.*)?$",
+      "status": 404
+    },
+    {
       "handle": "error"
     },
     {
       "status": 404,
       "src": "^(?!/api).*$",
       "dest": "/404"
+    },
+    {
+      "status": 404,
+      "src": "^(?!/api).*$",
+      "dest": "/404.html"
+    },
+    {
+      "handle": "miss"
+    },
+    {
+      "src": "^/api/(.+)(?:\\.(?:js))$",
+      "dest": "/api/$1",
+      "check": true
     }
   ]
 }
