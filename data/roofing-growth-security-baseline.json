@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "domain": "commercialroofersontario.com",
+  "productionDeployment": "dpl_CgnxtbSDM4Qp2Mui6UHamvpYioyQ",
+  "handlerFile": "api/submit.js",
+  "handlerNormalizedSha256": "385986e00c9a4a63704337f6b357de7ce138cd2d87d7032197ee3c9fe34009b3",
+  "dependenciesSha256": "e124745ae55cbca2810a1a15bda63fb27cb25dd09c4ef7c41efd5e2e8e201cfd",
+  "securityFiles": [
+    {
+      "path": "lib/turnstile.js",
+      "sha256": "20238ac9502b9e24e248b2f54a8e60328ed781a0a4db8f0222548d6ea4676568"
+    },
+    {
+      "path": "api/turnstile-config.js",
+      "sha256": "024de2d7059f7875be4e37054c4353211c9d435ed3b327da6f4b78ffb3624828"
+    },
+    {
+      "path": "public/rr-lead-controls.css",
+      "sha256": "6c4fc0848e012a1dd121eeac20f6772fa18dc1b52b0dafa72d0bdbed8752d7e0"
+    },
+    {
+      "path": "public/rr-lead-controls.js",
+      "sha256": "b65e2326d4cd953a2eae3b065d860f504fe4464eadfb1a132296f91230f9e004"
+    },
+    {
+      "path": "public/turnstile-contact.js",
+      "sha256": "833f8bfa3a9a48a58c8dd7a7500aabe0e313d5c6d8af0941b08f530d340f59bb"
+    }
+  ]
+}

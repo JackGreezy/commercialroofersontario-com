@@ -1,519 +1,1329 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "buildCommand": "node scripts/build-contact-site.mjs",
-  "rewrites": [
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "routes": [
     {
-      "source": "/roof-systems/modified-bitumen-systems",
-      "destination": "/roof-systems/modified-bitumen-systems.html"
+      "src": "^/(?:(.+)/)?index(?:\\.html)?/?$",
+      "headers": {
+        "Location": "/$1"
+      },
+      "status": 308
     },
     {
-      "source": "/roof-systems/modified-bitumen-systems/",
-      "destination": "/roof-systems/modified-bitumen-systems.html"
+      "src": "^/(.*)\\.html/?$",
+      "headers": {
+        "Location": "/$1"
+      },
+      "status": 308
     },
     {
-      "source": "/services/emergency-tarp-dry-in",
-      "destination": "/services/emergency-tarp-dry-in.html"
+      "src": "^/(.*)/$",
+      "headers": {
+        "Location": "/$1"
+      },
+      "status": 308
     },
     {
-      "source": "/services/emergency-tarp-dry-in/",
-      "destination": "/services/emergency-tarp-dry-in.html"
+      "src": "^/cdn-cgi/l/email-protection$",
+      "headers": {
+        "Location": "/contact"
+      },
+      "status": 308
     },
     {
-      "source": "/services/commercial-roof-leak-repair",
-      "destination": "/services/commercial-roof-leak-repair.html"
+      "src": "^/locations(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?$",
+      "headers": {
+        "Location": "/service-areas/$1"
+      },
+      "status": 308
     },
     {
-      "source": "/services/commercial-roof-leak-repair/",
-      "destination": "/services/commercial-roof-leak-repair.html"
+      "src": "^/locations$",
+      "headers": {
+        "Location": "/service-areas"
+      },
+      "status": 308
     },
     {
-      "source": "/services/drain-cleaning-repair",
-      "destination": "/services/drain-cleaning-repair.html"
+      "src": "^/locations/azusa$",
+      "headers": {
+        "Location": "/service-areas/azusa"
+      },
+      "status": 308
     },
     {
-      "source": "/services/drain-cleaning-repair/",
-      "destination": "/services/drain-cleaning-repair.html"
+      "src": "^/locations/azusa/$",
+      "headers": {
+        "Location": "/service-areas/azusa"
+      },
+      "status": 308
     },
     {
-      "source": "/services/commercial-roof-inspection",
-      "destination": "/services/commercial-roof-inspection.html"
+      "src": "^/locations/baldwin-park$",
+      "headers": {
+        "Location": "/service-areas/baldwin-park"
+      },
+      "status": 308
     },
     {
-      "source": "/services/commercial-roof-inspection/",
-      "destination": "/services/commercial-roof-inspection.html"
+      "src": "^/locations/baldwin-park/$",
+      "headers": {
+        "Location": "/service-areas/baldwin-park"
+      },
+      "status": 308
     },
     {
-      "source": "/services/preventive-maintenance-programs",
-      "destination": "/services/preventive-maintenance-programs.html"
+      "src": "^/locations/brea$",
+      "headers": {
+        "Location": "/service-areas/brea"
+      },
+      "status": 308
     },
     {
-      "source": "/services/preventive-maintenance-programs/",
-      "destination": "/services/preventive-maintenance-programs.html"
+      "src": "^/locations/brea/$",
+      "headers": {
+        "Location": "/service-areas/brea"
+      },
+      "status": 308
     },
     {
-      "source": "/services/silicone-roof-coatings",
-      "destination": "/services/silicone-roof-coatings.html"
+      "src": "^/locations/charter-oak$",
+      "headers": {
+        "Location": "/service-areas/charter-oak"
+      },
+      "status": 308
     },
     {
-      "source": "/services/silicone-roof-coatings/",
-      "destination": "/services/silicone-roof-coatings.html"
+      "src": "^/locations/charter-oak/$",
+      "headers": {
+        "Location": "/service-areas/charter-oak"
+      },
+      "status": 308
     },
     {
-      "source": "/services/commercial-roof-tear-off-replacement",
-      "destination": "/services/commercial-roof-tear-off-replacement.html"
+      "src": "^/locations/chino$",
+      "headers": {
+        "Location": "/service-areas/chino"
+      },
+      "status": 308
     },
     {
-      "source": "/services/commercial-roof-tear-off-replacement/",
-      "destination": "/services/commercial-roof-tear-off-replacement.html"
+      "src": "^/locations/chino/$",
+      "headers": {
+        "Location": "/service-areas/chino"
+      },
+      "status": 308
     },
     {
-      "source": "/capabilities/roof-asset-management",
-      "destination": "/capabilities/roof-asset-management.html"
+      "src": "^/locations/chino-hills$",
+      "headers": {
+        "Location": "/service-areas/chino-hills"
+      },
+      "status": 308
     },
     {
-      "source": "/capabilities/roof-asset-management/",
-      "destination": "/capabilities/roof-asset-management.html"
+      "src": "^/locations/chino-hills/$",
+      "headers": {
+        "Location": "/service-areas/chino-hills"
+      },
+      "status": 308
     },
     {
-      "source": "/services/roof-lifting",
-      "destination": "/services/roof-lifting.html"
+      "src": "^/locations/city-of-industry$",
+      "headers": {
+        "Location": "/service-areas/city-of-industry"
+      },
+      "status": 308
     },
     {
-      "source": "/services/roof-lifting/",
-      "destination": "/services/roof-lifting.html"
-    }
-  ],
-  "redirects": [
+      "src": "^/locations/city-of-industry/$",
+      "headers": {
+        "Location": "/service-areas/city-of-industry"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/claremont$",
+      "headers": {
+        "Location": "/service-areas/claremont"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/claremont/$",
+      "headers": {
+        "Location": "/service-areas/claremont"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/corona$",
+      "headers": {
+        "Location": "/service-areas/corona"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/corona/$",
+      "headers": {
+        "Location": "/service-areas/corona"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/coronita$",
+      "headers": {
+        "Location": "/service-areas/coronita"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/coronita/$",
+      "headers": {
+        "Location": "/service-areas/coronita"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/covina$",
+      "headers": {
+        "Location": "/service-areas/covina"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/covina/$",
+      "headers": {
+        "Location": "/service-areas/covina"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/diamond-bar$",
+      "headers": {
+        "Location": "/service-areas/diamond-bar"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/diamond-bar/$",
+      "headers": {
+        "Location": "/service-areas/diamond-bar"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/eastvale$",
+      "headers": {
+        "Location": "/service-areas/eastvale"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/eastvale/$",
+      "headers": {
+        "Location": "/service-areas/eastvale"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/el-cerrito$",
+      "headers": {
+        "Location": "/service-areas/el-cerrito"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/el-cerrito/$",
+      "headers": {
+        "Location": "/service-areas/el-cerrito"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/glen-avon$",
+      "headers": {
+        "Location": "/service-areas/glen-avon"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/glen-avon/$",
+      "headers": {
+        "Location": "/service-areas/glen-avon"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/glendora$",
+      "headers": {
+        "Location": "/service-areas/glendora"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/glendora/$",
+      "headers": {
+        "Location": "/service-areas/glendora"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/guasti$",
+      "headers": {
+        "Location": "/service-areas/guasti"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/guasti/$",
+      "headers": {
+        "Location": "/service-areas/guasti"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/hacienda-heights$",
+      "headers": {
+        "Location": "/service-areas/hacienda-heights"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/hacienda-heights/$",
+      "headers": {
+        "Location": "/service-areas/hacienda-heights"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/home-gardens$",
+      "headers": {
+        "Location": "/service-areas/home-gardens"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/home-gardens/$",
+      "headers": {
+        "Location": "/service-areas/home-gardens"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/irwindale$",
+      "headers": {
+        "Location": "/service-areas/irwindale"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/irwindale/$",
+      "headers": {
+        "Location": "/service-areas/irwindale"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/jurupa-valley$",
+      "headers": {
+        "Location": "/service-areas/jurupa-valley"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/jurupa-valley/$",
+      "headers": {
+        "Location": "/service-areas/jurupa-valley"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/la-puente$",
+      "headers": {
+        "Location": "/service-areas/la-puente"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/la-puente/$",
+      "headers": {
+        "Location": "/service-areas/la-puente"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/la-verne$",
+      "headers": {
+        "Location": "/service-areas/la-verne"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/la-verne/$",
+      "headers": {
+        "Location": "/service-areas/la-verne"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/mira-loma$",
+      "headers": {
+        "Location": "/service-areas/mira-loma"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/mira-loma/$",
+      "headers": {
+        "Location": "/service-areas/mira-loma"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/montclair$",
+      "headers": {
+        "Location": "/service-areas/montclair"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/montclair/$",
+      "headers": {
+        "Location": "/service-areas/montclair"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/norco$",
+      "headers": {
+        "Location": "/service-areas/norco"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/norco/$",
+      "headers": {
+        "Location": "/service-areas/norco"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/ontario$",
+      "headers": {
+        "Location": "/service-areas/ontario"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/ontario/$",
+      "headers": {
+        "Location": "/service-areas/ontario"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/ontario-airport-area$",
+      "headers": {
+        "Location": "/service-areas/ontario-airport-area"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/ontario-airport-area/$",
+      "headers": {
+        "Location": "/service-areas/ontario-airport-area"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/ontario-ranch$",
+      "headers": {
+        "Location": "/service-areas/ontario-ranch"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/ontario-ranch/$",
+      "headers": {
+        "Location": "/service-areas/ontario-ranch"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/pedley$",
+      "headers": {
+        "Location": "/service-areas/pedley"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/pedley/$",
+      "headers": {
+        "Location": "/service-areas/pedley"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/pomona$",
+      "headers": {
+        "Location": "/service-areas/pomona"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/pomona/$",
+      "headers": {
+        "Location": "/service-areas/pomona"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/rancho-cucamonga$",
+      "headers": {
+        "Location": "/service-areas/rancho-cucamonga"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/rancho-cucamonga/$",
+      "headers": {
+        "Location": "/service-areas/rancho-cucamonga"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/rowland-heights$",
+      "headers": {
+        "Location": "/service-areas/rowland-heights"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/rowland-heights/$",
+      "headers": {
+        "Location": "/service-areas/rowland-heights"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/rubidoux$",
+      "headers": {
+        "Location": "/service-areas/rubidoux"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/rubidoux/$",
+      "headers": {
+        "Location": "/service-areas/rubidoux"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/san-antonio-heights$",
+      "headers": {
+        "Location": "/service-areas/san-antonio-heights"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/san-antonio-heights/$",
+      "headers": {
+        "Location": "/service-areas/san-antonio-heights"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/san-dimas$",
+      "headers": {
+        "Location": "/service-areas/san-dimas"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/san-dimas/$",
+      "headers": {
+        "Location": "/service-areas/san-dimas"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/temescal-valley$",
+      "headers": {
+        "Location": "/service-areas/temescal-valley"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/temescal-valley/$",
+      "headers": {
+        "Location": "/service-areas/temescal-valley"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/upland$",
+      "headers": {
+        "Location": "/service-areas/upland"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/upland/$",
+      "headers": {
+        "Location": "/service-areas/upland"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/walnut$",
+      "headers": {
+        "Location": "/service-areas/walnut"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/walnut/$",
+      "headers": {
+        "Location": "/service-areas/walnut"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/west-covina$",
+      "headers": {
+        "Location": "/service-areas/west-covina"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/west-covina/$",
+      "headers": {
+        "Location": "/service-areas/west-covina"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/yorba-linda$",
+      "headers": {
+        "Location": "/service-areas/yorba-linda"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/yorba-linda/$",
+      "headers": {
+        "Location": "/service-areas/yorba-linda"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/locations/$",
+      "headers": {
+        "Location": "/service-areas"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/(api(?:.+)?)/index(?:\\.(?:js))?/?$",
+      "headers": {
+        "Location": "/$1"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/api/(.+)(?:\\.(?:js))/?$",
+      "headers": {
+        "Location": "/api/$1"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/roof\\-systems$",
+      "dest": "/roof-systems.html",
+      "check": true
+    },
+    {
+      "src": "^/industries$",
+      "dest": "/industries.html",
+      "check": true
+    },
+    {
+      "src": "^/$",
+      "dest": "/index.html",
+      "check": true
+    },
+    {
+      "src": "^/home$",
+      "dest": "/home.html",
+      "check": true
+    },
+    {
+      "src": "^/about$",
+      "dest": "/about.html",
+      "check": true
+    },
+    {
+      "src": "^/contact$",
+      "dest": "/contact.html",
+      "check": true
+    },
+    {
+      "src": "^/terms$",
+      "dest": "/terms.html",
+      "check": true
+    },
+    {
+      "src": "^/404$",
+      "dest": "/404.html",
+      "check": true
+    },
+    {
+      "src": "^/manufacturers$",
+      "dest": "/manufacturers.html",
+      "check": true
+    },
+    {
+      "src": "^/project\\-types$",
+      "dest": "/project-types.html",
+      "check": true
+    },
+    {
+      "src": "^/services$",
+      "dest": "/services.html",
+      "check": true
+    },
+    {
+      "src": "^/privacy$",
+      "dest": "/privacy.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas$",
+      "dest": "/service-areas.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/glendora$",
+      "dest": "/service-areas/glendora.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/west\\-covina$",
+      "dest": "/service-areas/west-covina.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/pomona$",
+      "dest": "/service-areas/pomona.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/pedley$",
+      "dest": "/service-areas/pedley.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/walnut$",
+      "dest": "/service-areas/walnut.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/hacienda\\-heights$",
+      "dest": "/service-areas/hacienda-heights.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/guasti$",
+      "dest": "/service-areas/guasti.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/claremont$",
+      "dest": "/service-areas/claremont.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/san\\-antonio\\-heights$",
+      "dest": "/service-areas/san-antonio-heights.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/chino$",
+      "dest": "/service-areas/chino.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/yorba\\-linda$",
+      "dest": "/service-areas/yorba-linda.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/rowland\\-heights$",
+      "dest": "/service-areas/rowland-heights.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/el\\-cerrito$",
+      "dest": "/service-areas/el-cerrito.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/mira\\-loma$",
+      "dest": "/service-areas/mira-loma.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/upland$",
+      "dest": "/service-areas/upland.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/ontario\\-ranch$",
+      "dest": "/service-areas/ontario-ranch.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/ontario\\-airport\\-area$",
+      "dest": "/service-areas/ontario-airport-area.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/corona$",
+      "dest": "/service-areas/corona.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/baldwin\\-park$",
+      "dest": "/service-areas/baldwin-park.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/diamond\\-bar$",
+      "dest": "/service-areas/diamond-bar.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/rubidoux$",
+      "dest": "/service-areas/rubidoux.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/san\\-dimas$",
+      "dest": "/service-areas/san-dimas.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/glen\\-avon$",
+      "dest": "/service-areas/glen-avon.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/temescal\\-valley$",
+      "dest": "/service-areas/temescal-valley.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/charter\\-oak$",
+      "dest": "/service-areas/charter-oak.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/la\\-puente$",
+      "dest": "/service-areas/la-puente.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/rancho\\-cucamonga$",
+      "dest": "/service-areas/rancho-cucamonga.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/irwindale$",
+      "dest": "/service-areas/irwindale.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/eastvale$",
+      "dest": "/service-areas/eastvale.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/norco$",
+      "dest": "/service-areas/norco.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/home\\-gardens$",
+      "dest": "/service-areas/home-gardens.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/brea$",
+      "dest": "/service-areas/brea.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/jurupa\\-valley$",
+      "dest": "/service-areas/jurupa-valley.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/montclair$",
+      "dest": "/service-areas/montclair.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/coronita$",
+      "dest": "/service-areas/coronita.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/ontario$",
+      "dest": "/service-areas/ontario.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/covina$",
+      "dest": "/service-areas/covina.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/city\\-of\\-industry$",
+      "dest": "/service-areas/city-of-industry.html",
+      "check": true
+    },
+    {
+      "src": "^/service\\-areas/chino\\-hills$",
+      "dest": "/service-areas/chino-hills.html",
+      "check": true
+    },
     {
-      "source": "/cdn-cgi/l/email-protection",
-      "destination": "/contact",
-      "permanent": true
+      "src": "^/service\\-areas/la\\-verne$",
+      "dest": "/service-areas/la-verne.html",
+      "check": true
     },
     {
-      "source": "/locations/:path*",
-      "destination": "/service-areas/:path*",
-      "permanent": true
+      "src": "^/service\\-areas/azusa$",
+      "dest": "/service-areas/azusa.html",
+      "check": true
     },
     {
-      "source": "/locations",
-      "destination": "/service-areas",
-      "permanent": true
+      "src": "^/capabilities/roof\\-asset\\-management$",
+      "dest": "/capabilities/roof-asset-management.html",
+      "check": true
     },
     {
-      "source": "/locations/azusa",
-      "destination": "/service-areas/azusa",
-      "permanent": true
+      "src": "^/roof\\-systems/spray\\-polyurethane\\-foam$",
+      "dest": "/roof-systems/spray-polyurethane-foam.html",
+      "check": true
     },
     {
-      "source": "/locations/azusa/",
-      "destination": "/service-areas/azusa",
-      "permanent": true
+      "src": "^/roof\\-systems/modified\\-bitumen\\-sbs$",
+      "dest": "/roof-systems/modified-bitumen-sbs.html",
+      "check": true
     },
     {
-      "source": "/locations/baldwin-park",
-      "destination": "/service-areas/baldwin-park",
-      "permanent": true
+      "src": "^/roof\\-systems/epdm\\-black$",
+      "dest": "/roof-systems/epdm-black.html",
+      "check": true
     },
     {
-      "source": "/locations/baldwin-park/",
-      "destination": "/service-areas/baldwin-park",
-      "permanent": true
+      "src": "^/roof\\-systems/tpo\\-60\\-mil$",
+      "dest": "/roof-systems/tpo-60-mil.html",
+      "check": true
     },
     {
-      "source": "/locations/brea",
-      "destination": "/service-areas/brea",
-      "permanent": true
+      "src": "^/roof\\-systems/tpo\\-80\\-mil$",
+      "dest": "/roof-systems/tpo-80-mil.html",
+      "check": true
     },
     {
-      "source": "/locations/brea/",
-      "destination": "/service-areas/brea",
-      "permanent": true
+      "src": "^/roof\\-systems/silicone\\-roof\\-coating$",
+      "dest": "/roof-systems/silicone-roof-coating.html",
+      "check": true
     },
     {
-      "source": "/locations/charter-oak",
-      "destination": "/service-areas/charter-oak",
-      "permanent": true
+      "src": "^/roof\\-systems/modified\\-bitumen\\-systems$",
+      "dest": "/roof-systems/modified-bitumen-systems.html",
+      "check": true
     },
     {
-      "source": "/locations/charter-oak/",
-      "destination": "/service-areas/charter-oak",
-      "permanent": true
+      "src": "^/roof\\-systems/pvc\\-roof\\-systems$",
+      "dest": "/roof-systems/pvc-roof-systems.html",
+      "check": true
     },
     {
-      "source": "/locations/chino",
-      "destination": "/service-areas/chino",
-      "permanent": true
+      "src": "^/roof\\-systems/epdm\\-white$",
+      "dest": "/roof-systems/epdm-white.html",
+      "check": true
     },
     {
-      "source": "/locations/chino/",
-      "destination": "/service-areas/chino",
-      "permanent": true
+      "src": "^/industries/insurance\\-restoration$",
+      "dest": "/industries/insurance-restoration.html",
+      "check": true
     },
     {
-      "source": "/locations/chino-hills",
-      "destination": "/service-areas/chino-hills",
-      "permanent": true
+      "src": "^/industries/logistics\\-3pl$",
+      "dest": "/industries/logistics-3pl.html",
+      "check": true
     },
     {
-      "source": "/locations/chino-hills/",
-      "destination": "/service-areas/chino-hills",
-      "permanent": true
+      "src": "^/industries/general\\-contractors$",
+      "dest": "/industries/general-contractors.html",
+      "check": true
     },
     {
-      "source": "/locations/city-of-industry",
-      "destination": "/service-areas/city-of-industry",
-      "permanent": true
+      "src": "^/industries/hospitality\\-groups$",
+      "dest": "/industries/hospitality-groups.html",
+      "check": true
     },
     {
-      "source": "/locations/city-of-industry/",
-      "destination": "/service-areas/city-of-industry",
-      "permanent": true
+      "src": "^/industries/manufacturing\\-operators$",
+      "dest": "/industries/manufacturing-operators.html",
+      "check": true
     },
     {
-      "source": "/locations/claremont",
-      "destination": "/service-areas/claremont",
-      "permanent": true
+      "src": "^/industries/property\\-management\\-firms$",
+      "dest": "/industries/property-management-firms.html",
+      "check": true
     },
     {
-      "source": "/locations/claremont/",
-      "destination": "/service-areas/claremont",
-      "permanent": true
+      "src": "^/industries/commercial\\-real\\-estate\\-reits$",
+      "dest": "/industries/commercial-real-estate-reits.html",
+      "check": true
     },
     {
-      "source": "/locations/corona",
-      "destination": "/service-areas/corona",
-      "permanent": true
+      "src": "^/industries/food\\-processing\\-cold\\-storage$",
+      "dest": "/industries/food-processing-cold-storage.html",
+      "check": true
     },
     {
-      "source": "/locations/corona/",
-      "destination": "/service-areas/corona",
-      "permanent": true
+      "src": "^/manufacturers/versico$",
+      "dest": "/manufacturers/versico.html",
+      "check": true
     },
     {
-      "source": "/locations/coronita",
-      "destination": "/service-areas/coronita",
-      "permanent": true
+      "src": "^/manufacturers/johns\\-manville$",
+      "dest": "/manufacturers/johns-manville.html",
+      "check": true
     },
     {
-      "source": "/locations/coronita/",
-      "destination": "/service-areas/coronita",
-      "permanent": true
+      "src": "^/manufacturers/sika\\-sarnafil$",
+      "dest": "/manufacturers/sika-sarnafil.html",
+      "check": true
     },
     {
-      "source": "/locations/covina",
-      "destination": "/service-areas/covina",
-      "permanent": true
+      "src": "^/manufacturers/carlisle\\-syntec$",
+      "dest": "/manufacturers/carlisle-syntec.html",
+      "check": true
     },
     {
-      "source": "/locations/covina/",
-      "destination": "/service-areas/covina",
-      "permanent": true
+      "src": "^/manufacturers/gaf\\-commercial$",
+      "dest": "/manufacturers/gaf-commercial.html",
+      "check": true
     },
     {
-      "source": "/locations/diamond-bar",
-      "destination": "/service-areas/diamond-bar",
-      "permanent": true
+      "src": "^/manufacturers/holcim\\-elevate$",
+      "dest": "/manufacturers/holcim-elevate.html",
+      "check": true
     },
     {
-      "source": "/locations/diamond-bar/",
-      "destination": "/service-areas/diamond-bar",
-      "permanent": true
+      "src": "^/services/roof\\-recover\\-overlay$",
+      "dest": "/services/roof-recover-overlay.html",
+      "check": true
     },
     {
-      "source": "/locations/eastvale",
-      "destination": "/service-areas/eastvale",
-      "permanent": true
+      "src": "^/services/commercial\\-roof\\-insurance\\-claims$",
+      "dest": "/services/commercial-roof-insurance-claims.html",
+      "check": true
     },
     {
-      "source": "/locations/eastvale/",
-      "destination": "/service-areas/eastvale",
-      "permanent": true
+      "src": "^/services/roof\\-lifting$",
+      "dest": "/services/roof-lifting.html",
+      "check": true
     },
     {
-      "source": "/locations/el-cerrito",
-      "destination": "/service-areas/el-cerrito",
-      "permanent": true
+      "src": "^/services/commercial\\-roof\\-tear\\-off\\-replacement$",
+      "dest": "/services/commercial-roof-tear-off-replacement.html",
+      "check": true
     },
     {
-      "source": "/locations/el-cerrito/",
-      "destination": "/service-areas/el-cerrito",
-      "permanent": true
+      "src": "^/services/insurance\\-documentation\\-support$",
+      "dest": "/services/insurance-documentation-support.html",
+      "check": true
     },
     {
-      "source": "/locations/glen-avon",
-      "destination": "/service-areas/glen-avon",
-      "permanent": true
+      "src": "^/services/tpo\\-single\\-ply\\-roofing$",
+      "dest": "/services/tpo-single-ply-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/glen-avon/",
-      "destination": "/service-areas/glen-avon",
-      "permanent": true
+      "src": "^/services/acrylic\\-roof\\-coatings$",
+      "dest": "/services/acrylic-roof-coatings.html",
+      "check": true
     },
     {
-      "source": "/locations/glendora",
-      "destination": "/service-areas/glendora",
-      "permanent": true
+      "src": "^/services/storm\\-damage\\-roof\\-repair$",
+      "dest": "/services/storm-damage-roof-repair.html",
+      "check": true
     },
     {
-      "source": "/locations/glendora/",
-      "destination": "/service-areas/glendora",
-      "permanent": true
+      "src": "^/services/epdm\\-commercial\\-roofing$",
+      "dest": "/services/epdm-commercial-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/guasti",
-      "destination": "/service-areas/guasti",
-      "permanent": true
+      "src": "^/services/emergency\\-tarp\\-dry\\-in$",
+      "dest": "/services/emergency-tarp-dry-in.html",
+      "check": true
     },
     {
-      "source": "/locations/guasti/",
-      "destination": "/service-areas/guasti",
-      "permanent": true
+      "src": "^/services/commercial\\-reroofing$",
+      "dest": "/services/commercial-reroofing.html",
+      "check": true
     },
     {
-      "source": "/locations/hacienda-heights",
-      "destination": "/service-areas/hacienda-heights",
-      "permanent": true
+      "src": "^/services/silicone\\-roof\\-coatings$",
+      "dest": "/services/silicone-roof-coatings.html",
+      "check": true
     },
     {
-      "source": "/locations/hacienda-heights/",
-      "destination": "/service-areas/hacienda-heights",
-      "permanent": true
+      "src": "^/services/preventive\\-maintenance\\-programs$",
+      "dest": "/services/preventive-maintenance-programs.html",
+      "check": true
     },
     {
-      "source": "/locations/home-gardens",
-      "destination": "/service-areas/home-gardens",
-      "permanent": true
+      "src": "^/services/built\\-up\\-roofing$",
+      "dest": "/services/built-up-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/home-gardens/",
-      "destination": "/service-areas/home-gardens",
-      "permanent": true
+      "src": "^/services/wind\\-storm\\-damage\\-roof\\-insurance\\-claims$",
+      "dest": "/services/wind-storm-damage-roof-insurance-claims.html",
+      "check": true
     },
     {
-      "source": "/locations/irwindale",
-      "destination": "/service-areas/irwindale",
-      "permanent": true
+      "src": "^/services/drain\\-cleaning\\-repair$",
+      "dest": "/services/drain-cleaning-repair.html",
+      "check": true
     },
     {
-      "source": "/locations/irwindale/",
-      "destination": "/service-areas/irwindale",
-      "permanent": true
+      "src": "^/services/pvc\\-roofing$",
+      "dest": "/services/pvc-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/jurupa-valley",
-      "destination": "/service-areas/jurupa-valley",
-      "permanent": true
+      "src": "^/services/roof\\-drains\\-scuppers$",
+      "dest": "/services/roof-drains-scuppers.html",
+      "check": true
     },
     {
-      "source": "/locations/jurupa-valley/",
-      "destination": "/service-areas/jurupa-valley",
-      "permanent": true
+      "src": "^/services/commercial\\-roof\\-leak\\-repair$",
+      "dest": "/services/commercial-roof-leak-repair.html",
+      "check": true
     },
     {
-      "source": "/locations/la-puente",
-      "destination": "/service-areas/la-puente",
-      "permanent": true
+      "src": "^/services/standing\\-seam\\-metal\\-roofing$",
+      "dest": "/services/standing-seam-metal-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/la-puente/",
-      "destination": "/service-areas/la-puente",
-      "permanent": true
+      "src": "^/services/metal\\-r\\-panel\\-roofing$",
+      "dest": "/services/metal-r-panel-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/la-verne",
-      "destination": "/service-areas/la-verne",
-      "permanent": true
+      "src": "^/services/commercial\\-roof\\-inspection$",
+      "dest": "/services/commercial-roof-inspection.html",
+      "check": true
     },
     {
-      "source": "/locations/la-verne/",
-      "destination": "/service-areas/la-verne",
-      "permanent": true
+      "src": "^/services/edge\\-metal\\-coping\\-gutters$",
+      "dest": "/services/edge-metal-coping-gutters.html",
+      "check": true
     },
     {
-      "source": "/locations/mira-loma",
-      "destination": "/service-areas/mira-loma",
-      "permanent": true
+      "src": "^/services/modified\\-bitumen\\-roofing$",
+      "dest": "/services/modified-bitumen-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/mira-loma/",
-      "destination": "/service-areas/mira-loma",
-      "permanent": true
+      "src": "^/project\\-types/warehouse\\-roofing$",
+      "dest": "/project-types/warehouse-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/montclair",
-      "destination": "/service-areas/montclair",
-      "permanent": true
+      "src": "^/project\\-types/distribution\\-center\\-roofing$",
+      "dest": "/project-types/distribution-center-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/montclair/",
-      "destination": "/service-areas/montclair",
-      "permanent": true
+      "src": "^/project\\-types/industrial\\-flex\\-space\\-roofing$",
+      "dest": "/project-types/industrial-flex-space-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/norco",
-      "destination": "/service-areas/norco",
-      "permanent": true
+      "src": "^/project\\-types/manufacturing\\-plant\\-roofing$",
+      "dest": "/project-types/manufacturing-plant-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/norco/",
-      "destination": "/service-areas/norco",
-      "permanent": true
+      "src": "^/project\\-types/event\\-venue\\-roofing$",
+      "dest": "/project-types/event-venue-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/ontario",
-      "destination": "/service-areas/ontario",
-      "permanent": true
+      "src": "^/project\\-types/hotel\\-hospitality\\-roofing$",
+      "dest": "/project-types/hotel-hospitality-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/ontario/",
-      "destination": "/service-areas/ontario",
-      "permanent": true
+      "src": "^/project\\-types/big\\-box\\-retail\\-roofing$",
+      "dest": "/project-types/big-box-retail-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/ontario-airport-area",
-      "destination": "/service-areas/ontario-airport-area",
-      "permanent": true
+      "src": "^/project\\-types/self\\-storage\\-facility\\-roofing$",
+      "dest": "/project-types/self-storage-facility-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/ontario-airport-area/",
-      "destination": "/service-areas/ontario-airport-area",
-      "permanent": true
+      "src": "^/project\\-types/auto\\-dealership\\-roofing$",
+      "dest": "/project-types/auto-dealership-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/ontario-ranch",
-      "destination": "/service-areas/ontario-ranch",
-      "permanent": true
+      "src": "^/project\\-types/multi\\-tenant\\-retail\\-strip\\-roofing$",
+      "dest": "/project-types/multi-tenant-retail-strip-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/ontario-ranch/",
-      "destination": "/service-areas/ontario-ranch",
-      "permanent": true
+      "src": "^/project\\-types/office\\-complex\\-roofing$",
+      "dest": "/project-types/office-complex-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/pedley",
-      "destination": "/service-areas/pedley",
-      "permanent": true
+      "src": "^/project\\-types/cold\\-storage\\-roofing$",
+      "dest": "/project-types/cold-storage-roofing.html",
+      "check": true
     },
     {
-      "source": "/locations/pedley/",
-      "destination": "/service-areas/pedley",
-      "permanent": true
+      "handle": "filesystem"
     },
     {
-      "source": "/locations/pomona",
-      "destination": "/service-areas/pomona",
-      "permanent": true
+      "src": "^/roof-systems/modified-bitumen-systems$",
+      "dest": "/roof-systems/modified-bitumen-systems.html",
+      "check": true
     },
     {
-      "source": "/locations/pomona/",
-      "destination": "/service-areas/pomona",
-      "permanent": true
+      "src": "^/roof-systems/modified-bitumen-systems/$",
+      "dest": "/roof-systems/modified-bitumen-systems.html",
+      "check": true
     },
     {
-      "source": "/locations/rancho-cucamonga",
-      "destination": "/service-areas/rancho-cucamonga",
-      "permanent": true
+      "src": "^/services/emergency-tarp-dry-in$",
+      "dest": "/services/emergency-tarp-dry-in.html",
+      "check": true
     },
     {
-      "source": "/locations/rancho-cucamonga/",
-      "destination": "/service-areas/rancho-cucamonga",
-      "permanent": true
+      "src": "^/services/emergency-tarp-dry-in/$",
+      "dest": "/services/emergency-tarp-dry-in.html",
+      "check": true
     },
     {
-      "source": "/locations/rowland-heights",
-      "destination": "/service-areas/rowland-heights",
-      "permanent": true
+      "src": "^/services/commercial-roof-leak-repair$",
+      "dest": "/services/commercial-roof-leak-repair.html",
+      "check": true
     },
     {
-      "source": "/locations/rowland-heights/",
-      "destination": "/service-areas/rowland-heights",
-      "permanent": true
+      "src": "^/services/commercial-roof-leak-repair/$",
+      "dest": "/services/commercial-roof-leak-repair.html",
+      "check": true
     },
     {
-      "source": "/locations/rubidoux",
-      "destination": "/service-areas/rubidoux",
-      "permanent": true
+      "src": "^/services/drain-cleaning-repair$",
+      "dest": "/services/drain-cleaning-repair.html",
+      "check": true
     },
     {
-      "source": "/locations/rubidoux/",
-      "destination": "/service-areas/rubidoux",
-      "permanent": true
+      "src": "^/services/drain-cleaning-repair/$",
+      "dest": "/services/drain-cleaning-repair.html",
+      "check": true
     },
     {
-      "source": "/locations/san-antonio-heights",
-      "destination": "/service-areas/san-antonio-heights",
-      "permanent": true
+      "src": "^/services/commercial-roof-inspection$",
+      "dest": "/services/commercial-roof-inspection.html",
+      "check": true
     },
     {
-      "source": "/locations/san-antonio-heights/",
-      "destination": "/service-areas/san-antonio-heights",
-      "permanent": true
+      "src": "^/services/commercial-roof-inspection/$",
+      "dest": "/services/commercial-roof-inspection.html",
+      "check": true
     },
     {
-      "source": "/locations/san-dimas",
-      "destination": "/service-areas/san-dimas",
-      "permanent": true
+      "src": "^/services/preventive-maintenance-programs$",
+      "dest": "/services/preventive-maintenance-programs.html",
+      "check": true
     },
     {
-      "source": "/locations/san-dimas/",
-      "destination": "/service-areas/san-dimas",
-      "permanent": true
+      "src": "^/services/preventive-maintenance-programs/$",
+      "dest": "/services/preventive-maintenance-programs.html",
+      "check": true
     },
     {
-      "source": "/locations/temescal-valley",
-      "destination": "/service-areas/temescal-valley",
-      "permanent": true
+      "src": "^/services/silicone-roof-coatings$",
+      "dest": "/services/silicone-roof-coatings.html",
+      "check": true
     },
     {
-      "source": "/locations/temescal-valley/",
-      "destination": "/service-areas/temescal-valley",
-      "permanent": true
+      "src": "^/services/silicone-roof-coatings/$",
+      "dest": "/services/silicone-roof-coatings.html",
+      "check": true
     },
     {
-      "source": "/locations/upland",
-      "destination": "/service-areas/upland",
-      "permanent": true
+      "src": "^/services/commercial-roof-tear-off-replacement$",
+      "dest": "/services/commercial-roof-tear-off-replacement.html",
+      "check": true
     },
     {
-      "source": "/locations/upland/",
-      "destination": "/service-areas/upland",
-      "permanent": true
+      "src": "^/services/commercial-roof-tear-off-replacement/$",
+      "dest": "/services/commercial-roof-tear-off-replacement.html",
+      "check": true
     },
     {
-      "source": "/locations/walnut",
-      "destination": "/service-areas/walnut",
-      "permanent": true
+      "src": "^/capabilities/roof-asset-management$",
+      "dest": "/capabilities/roof-asset-management.html",
+      "check": true
     },
     {
-      "source": "/locations/walnut/",
-      "destination": "/service-areas/walnut",
-      "permanent": true
+      "src": "^/capabilities/roof-asset-management/$",
+      "dest": "/capabilities/roof-asset-management.html",
+      "check": true
     },
     {
-      "source": "/locations/west-covina",
-      "destination": "/service-areas/west-covina",
-      "permanent": true
+      "src": "^/services/roof-lifting$",
+      "dest": "/services/roof-lifting.html",
+      "check": true
     },
     {
-      "source": "/locations/west-covina/",
-      "destination": "/service-areas/west-covina",
-      "permanent": true
+      "src": "^/services/roof-lifting/$",
+      "dest": "/services/roof-lifting.html",
+      "check": true
     },
     {
-      "source": "/locations/yorba-linda",
-      "destination": "/service-areas/yorba-linda",
-      "permanent": true
+      "src": "^/api(/.*)?$",
+      "status": 404
     },
     {
-      "source": "/locations/yorba-linda/",
-      "destination": "/service-areas/yorba-linda",
-      "permanent": true
+      "handle": "error"
     },
     {
-      "source": "/locations/",
-      "destination": "/service-areas",
-      "permanent": true
+      "status": 404,
+      "src": "^(?!/api).*$",
+      "dest": "/404"
     }
   ]
 }

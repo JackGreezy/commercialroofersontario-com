@@ -1,0 +1,25 @@
+[identity]
+name: Commercial Roofers of Ontario
+url: https://commercialroofersontario.com
+description: Need commercial roof help in Ontario, CA? Request emergency repair, a flat roof inspection and report, a service agreement, coating review, or roof replacement plan.
+contact: repairs@commercialroofersontario.com
+
+[permissions]
+Summarise, quote with attribution, cite, and index public content for search and answers.
+
+[restrictions]
+Do not fabricate quotes, reviews, ratings, project results, prices, or guarantees.
+Do not present this content as your own. Private and authenticated content is excluded.
+Training-crawler permissions are unchanged; consult robots.txt.
+
+[attribution]
+Cite Commercial Roofers of Ontario and the canonical HTML URL provided with each document.
+
+[scope]
+Included: public pages in https://commercialroofersontario.com/api/md/_catalog
+Excluded: /api/, /admin/, /portal/, /dashboard/, /auth/, /sign-in, /sign-up, /onboarding/, /dev-access, drafts and noindex pages.
+
+[contact]
+repairs@commercialroofersontario.com
+
+# Keep in sync with robots.txt and llms.txt. Generated from the public route registry.
