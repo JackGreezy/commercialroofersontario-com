@@ -107,7 +107,7 @@ html, body { overflow-x: hidden; }
 .ontario-button.dark { background: var(--ont-midnight); border-color: var(--ont-midnight); }
 
 .ontario-hero-panel {
-  background: linear-gradient(180deg, rgba(21,43,50,.08), rgba(21,43,50,.68)), url('/ours/project-types/distribution-center-roofing-commercial-roofers-ontario-ca.webp') center/cover;
+  background: linear-gradient(180deg, rgba(21,43,50,.08), rgba(21,43,50,.68)), url('/performance/roofing-v1/10ed0f48d58e5b1bb0b78e39.webp') center/cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

@@ -1,0 +1,101 @@
+{
+  "revision": "roofing-speed-v1",
+  "domain": "commercialroofersontario.com",
+  "images": {
+    "/images/brand/logo-on-light.png": "/performance/roofing-v1/91c6f0808bc846dc4b20e4da.webp",
+    "/ours/project-types/distribution-center-roofing-commercial-roofers-ontario-ca.webp": "/performance/roofing-v1/10ed0f48d58e5b1bb0b78e39.webp",
+    "/ours/project-types/manufacturing-plant-roofing-commercial-roofers-ontario-ca.webp": "/performance/roofing-v1/2d39954b9a82547c9161cb5e.webp",
+    "/ours/service-areas/commercial-roofers-el-cerrito-ca-v2.webp": "/performance/roofing-v1/cf1cc9e15f7ab7cef7c93c4a.webp",
+    "/ours/service-areas/commercial-roofers-ontario-ca-04.webp": "/performance/roofing-v1/0a6954e7bb52ac1d6ae6e297.webp",
+    "/ours/service-areas/commercial-roofers-pedley-ca-v2.webp": "/performance/roofing-v1/f3a45b4f2eb4069b7a353914.webp",
+    "/ours/service-areas/commercial-roofers-san-antonio-heights-ca-v2.webp": "/performance/roofing-v1/eb007f76f7171e51028e567d.webp",
+    "/ours/services/commercial-roof-tear-off-replacement-commercial-roofers-ontario-ca.webp": "/performance/roofing-v1/a9ba0fdfd51f8975b59ae808.webp",
+    "/ours/services/epdm-commercial-roofing-commercial-roofers-ontario-ca.webp": "/performance/roofing-v1/1aecc09b693245f22bc58bca.webp",
+    "/ours/services/silicone-roof-coatings-commercial-roofers-ontario-ca.webp": "/performance/roofing-v1/f6dea66a20cf3dff6bc13399.webp"
+  },
+  "assets": [
+    {
+      "from": "/images/brand/logo-on-light.png",
+      "to": "/performance/roofing-v1/91c6f0808bc846dc4b20e4da.webp",
+      "width": 962,
+      "height": 272,
+      "beforeBytes": 175848,
+      "afterBytes": 114040
+    },
+    {
+      "from": "/ours/project-types/distribution-center-roofing-commercial-roofers-ontario-ca.webp",
+      "to": "/performance/roofing-v1/10ed0f48d58e5b1bb0b78e39.webp",
+      "width": 2000,
+      "height": 1333,
+      "beforeBytes": 643130,
+      "afterBytes": 504284
+    },
+    {
+      "from": "/ours/project-types/manufacturing-plant-roofing-commercial-roofers-ontario-ca.webp",
+      "to": "/performance/roofing-v1/2d39954b9a82547c9161cb5e.webp",
+      "width": 2400,
+      "height": 1600,
+      "beforeBytes": 199492,
+      "afterBytes": 153592
+    },
+    {
+      "from": "/ours/service-areas/commercial-roofers-el-cerrito-ca-v2.webp",
+      "to": "/performance/roofing-v1/cf1cc9e15f7ab7cef7c93c4a.webp",
+      "width": 2400,
+      "height": 1449,
+      "beforeBytes": 394456,
+      "afterBytes": 308544
+    },
+    {
+      "from": "/ours/service-areas/commercial-roofers-ontario-ca-04.webp",
+      "to": "/performance/roofing-v1/0a6954e7bb52ac1d6ae6e297.webp",
+      "width": 2400,
+      "height": 1600,
+      "beforeBytes": 506336,
+      "afterBytes": 400090
+    },
+    {
+      "from": "/ours/service-areas/commercial-roofers-pedley-ca-v2.webp",
+      "to": "/performance/roofing-v1/f3a45b4f2eb4069b7a353914.webp",
+      "width": 1900,
+      "height": 950,
+      "beforeBytes": 393288,
+      "afterBytes": 313894
+    },
+    {
+      "from": "/ours/service-areas/commercial-roofers-san-antonio-heights-ca-v2.webp",
+      "to": "/performance/roofing-v1/eb007f76f7171e51028e567d.webp",
+      "width": 2400,
+      "height": 1600,
+      "beforeBytes": 616070,
+      "afterBytes": 479916
+    },
+    {
+      "from": "/ours/services/commercial-roof-tear-off-replacement-commercial-roofers-ontario-ca.webp",
+      "to": "/performance/roofing-v1/a9ba0fdfd51f8975b59ae808.webp",
+      "width": 1500,
+      "height": 1000,
+      "beforeBytes": 119864,
+      "afterBytes": 92428
+    },
+    {
+      "from": "/ours/services/epdm-commercial-roofing-commercial-roofers-ontario-ca.webp",
+      "to": "/performance/roofing-v1/1aecc09b693245f22bc58bca.webp",
+      "width": 2400,
+      "height": 1800,
+      "beforeBytes": 352738,
+      "afterBytes": 262658
+    },
+    {
+      "from": "/ours/services/silicone-roof-coatings-commercial-roofers-ontario-ca.webp",
+      "to": "/performance/roofing-v1/f6dea66a20cf3dff6bc13399.webp",
+      "width": 1920,
+      "height": 1080,
+      "beforeBytes": 129690,
+      "afterBytes": 98858
+    }
+  ],
+  "createdAt": "2026-11-21T04:34:00.364Z",
+  "fonts": [],
+  "fontFailures": []
+}
